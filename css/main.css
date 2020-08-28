@@ -17,10 +17,20 @@ body {
   line-height: 1.6;
 }
 
+img {
+  width: 100%;
+}
+
 /*  Components */
 .container {
   width: 70%;
   max-width: 1000px;
+  margin: 0 auto;
+}
+
+.article__img {
+  width: 70%;
+  max-width: 650px;
   margin: 0 auto;
 }
 
