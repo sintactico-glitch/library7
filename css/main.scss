@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/*  Components */
+.container {
+    width: 70%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*  TYPOGRAPHY */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+ul,
+ol {
+    padding: 0;
+   
+}
+
+// I'm trying to increase the distance between li elements
+.summary {
+    margin-bottom: .3em;
+}
+/*  
+    This fixes the padding on the list, however when the li has a p or title, the bullet occupies the entire first line
+    Use this for the Index since it only has a link on the li
+
+ul,
+ol {
+    padding: 0;
+    list-style-position: inside;
+}
+*/
