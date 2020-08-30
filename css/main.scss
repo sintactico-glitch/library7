@@ -1,3 +1,12 @@
+//  COLORS
+$light-gray: #E0E1DD;
+$dark-gray: #C4CBCA;
+$black: #0A0F0D;
+$light-pink: #EE4266;
+$dark-pink: #E01541;
+
+
+/*  Resets  */
 *,
 *::before,
 *::after {
@@ -35,6 +44,28 @@ img {
     }
 }
 
+.card {
+    max-width: 600px;
+    background-color: $light-gray;
+    margin: 1em 0;
+    padding: .3em 1em;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        margin: .5em 0;
+    }
+
+    &__list {
+        padding: 0;
+        list-style-position: inside;
+        list-style-type: square;
+    }
+
+    &__link {
+        font-size: .9em;
+    }
+}
 
 /*  TYPOGRAPHY */
 h1,
