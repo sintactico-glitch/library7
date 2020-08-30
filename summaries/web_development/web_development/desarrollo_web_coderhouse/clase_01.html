@@ -105,23 +105,35 @@
                 <h3>Tipos de etiquetas</h3>
                 <p>Todas las etiquetas que van dentro del body se dividen en dos grupos:</p>
                 <ul>
-                    <li>Elementos de bloque: son los que (sin ser modificados por CSS) ocupan el 100% del ancho del contenedor y se mostrarán uno abajo del otro. Ejemplos: p, br. h1 al h6</li>
-                    <li>Elementos de línea: solo ocupan el ancho que diga su contenido y se ven uno al lado del otro. Ejemplos: b, em, i, strong</li>
+                    <li><strong>Elementos de bloque:</strong> son los que (sin ser modificados por CSS) ocupan el 100% del ancho del contenedor y se mostrarán uno abajo del otro. Ejemplos: p, br, h1 al h6</li>
+                    <li><strong>Elementos de línea:</strong> solo ocupan el ancho que diga su contenido y se ven uno al lado del otro. Suelen ser elementos cuya función es modificar el texto. Ejemplos: b, em, i, strong</li>
                 </ul>
 
                 <h3>Niveles de encabezado</h3>
                 <p>Las etiquetas h1 al h6 son los encabezados y son semánticamente el texto que "encabeza" o titula el contenido. Estas etiquetas no representan un texto más grande o más chico, sino que marcan una jerarquía.</p>
-                <p>No usamos un h3 si antes no hubo un h2. El h3 es un sub-nivel de contenido del h2, del nivel inmediato anterior. Si 2 titulos son igual de importantes, son el mismo nivel.</p>
-                <p>Sin embargo, solamente puede haber un h1 por página web. No en todo el sitio, sino en cada página web.</p>
+                <p><strong>No usamos un h3 si antes no hubo un h2.</strong> El h3 es un sub-nivel de contenido del h2, del nivel inmediato anterior. Si 2 titulos son igual de importantes, son el mismo nivel.</p>
+                <p>Sin embargo,<strong>solamente puede haber un h1 por página web. No en todo el sitio, sino en cada página web.</strong></p>
                 <p>La jerarquía de títulos se debe respetar en cada documento HTML que forme parte del sitio.</p>
 
-
+                <h3>Etiquetas semánticas</h3>
+                <p>HTML5 incorpora etiquetas semánticas que no sólo generan estructura, sino que también definen su contenido</p>
+                <div class="article__img">
+                    <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_etiquetas_semanticas.jpg" alt="esquema etiquetas semanticas html5">
+                </div>
+                <ul>
+                    <li>Header: define la cabecera de una página o sección</li>
+                    <li>Nav: cualquier cosa que te permita navegar dentro de tu sitio web. El menú tiene un nav pero también puede haber un nav en el footer donde haya más de un link que permita navegar dentro del sitio web. Es muy útil para la accesibilidad de personas con problemas de visión a través del uso de screen readers</li>
+                    <li>Main: define el contenido prinicpal o importante del documento. <strong>Solamente existe un elemento main en el documento</strong></li>
+                    <li>Section: marca secciones dentro de la web. Ej: quienes somos, un slider, etc</li>
+                    <li>Article: define contenido autónomo que podría existir independientemente del resto del contenido</li>
+                    <li>Aside: suele ser el menú del constado donde se da información adicional que no necesariamente se relaciona con el contenido principal</li>
+                    <li>Footer: define el pie de página o sección, incorpora la info con la que se suelen cerrar los sitios web. <strong>Header y footer suelen repetirse en todas las páginas del sitio</strong></li>
+                </ul>
 
             </article>
 
         </section>
     </main>
     
-
 </body>
 </html>
