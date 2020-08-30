@@ -15,24 +15,49 @@
         </section>
 
         <aside class="index">
-            <h3>Index</h3>
+            <h3 class="index__title
+            ">Index</h3>
             <ol>
-                <li><a href="#chapter1">Modelo cliente-servidor</a></li>
-                <li><a href="#chapter2">Prototipado desde papel</a></li>
-                <li><a href="#chapter3">HTML</a></li>
+                <li>
+                    <a href="#chapter1">Modelo cliente-servidor</a>
+                </li>
+                <li>
+                    <a href="#chapter2">Prototipado desde papel</a>
+                </li>
+                <li>
+                    <a href="#chapter3">HTML</a>
+                    <ul>
+                        <li><a href="#article1">Otros lenguajes</a></li>
+                        <li><a href="#article2">Herramientas de desarrollo</a></li>
+                        <li><a href="#article3">Convenio de archivos</a></li>
+                        <li>
+                            <a href="#article4">Etiquetas</a>
+                            <ul>
+                                <li>Atributos de las etiquetas</li>
+                                <li>Anidar etiquetas</li>
+                                <li>Comentarios HTML</li>
+                            </ul>
+                        </li>
+                        <li><a href="#article5">Estructura básica</a></li>
+                        <li><a href="#article6">Docktype</a></li>
+                        <li><a href="#article7">Tipos de etiquetas</a></li>
+                        <li><a href="#article8">Niveles de encabezado</a></li>
+                        <li><a href="#article9">Etiquetas semánticas</a></li>
+                    </ul>
+                </li>
             </ol>
             <a href="../desarrollo_web_coderhouse.html">Volver al curso</a> <br>
             <a href="../../../../index.html">Back to Home</a>
         </aside>
 
         <section class="summary">            
-            <article id="chapter1">
+            <div id="chapter1">
                 <h2>Modelo cliente-servidor</h2>
                 <p>Una página web está compuesta por la página web en sí y todas las partes que te permiten llegar a ella. En el servidor se almacenan los archivos. El dominio es una "máscara" que utilizamos que es más fácil de recordar que la dirección IP del sitio (ej coderhouse.com en vez de 162.243.9.191)</p> 
                 <p>Internet es una gran colección de computadoras conectadas. Al alquilar un hosting, alquilas espacio en una computadora para subir tu información. El hosting está prendido 24 horas y tiene disponible tu información para que otros accedan a ella a través de una IP. Después es necesario adquirir un dominio que es la "máscara" que permite acceder al sitio fácilmente para humanos.</p>
-            </article>
+            </div>
 
-            <article id="chapter2">
+            <div id="chapter2">
                 <h2>Prototipado desde papel</h2>
                 <p>La web tiene que estar al servicio del contenido y no al revés. Saber lo que vas a incluir te da una idea de cómo colocar el contenido en la web. Es importante pensar en el contenido desde la etapa de sketch</p>
                 <p>Pasos para diseñar una web:</p>
@@ -43,94 +68,129 @@
                     <li>Prototipo interactivo: representación navegable del producto final. Que sea interactivo es el aspecto principal que permite tener una mejor idea de cómo se utilizaría el diseño final</li>
                     <li>Diseño final</li>
                 </ol>
-            </article>
+            </div>
 
-            <article id="chapter3">
+            <div id="chapter3">
                 <h2>HTML</h2>
-                <p>Es un lenguaje de marcado (de etiquetas) para crear documentos para web. Se encarga solamente de lo estructural, no del diseño.</p>
+                <p>HTML es un lenguaje de marcado (de etiquetas) para crear documentos para web. Se encarga solamente de lo estructural, no del diseño.</p>
                 <p>Utiliza una etiqueta de inicio y cierre (en la mayoría de los casos). Todo lo que se encuentra dentro de las etiquetas es su contenido</p>
-                <p></p>
 
-                <h3>Otros lenguajes</h3>
-                <ul>
-                    <li>CSS (Cascading Style Sheets): aplica el formato visual y estructural de la página</li>
-                    <li>JavaScript: permite hablar con servidores desde la página web. También permite crear efectos-web (modales, drag and drop, validación de formularios). Añade más dinamismo a la web</li>
-                    <li>PHP: permite crear sitios dinámicos (subir archivos, enviar mails, conexión a base de datos, registro y login de usuarios)</li>
-                </ul>
+                <article id="article1">
+                    <h3>Otros lenguajes</h3>
+                    <ul>
+                        <li>CSS (Cascading Style Sheets): aplica el formato visual y estructural de la página</li>
+                        <li>JavaScript: permite hablar con servidores desde la página web. También permite crear efectos-web (modales, drag and drop, validación de formularios). Añade más dinamismo a la web</li>
+                        <li>PHP: permite crear sitios dinámicos (subir archivos, enviar mails, conexión a base de datos, registro y login de usuarios)</li>
+                    </ul>
+                </article>
 
-                <h3>Herramientas de desarrollo</h3>
-                <p>Usar programas que escriba texto plano (Sublime Text, Visual Studio Code, Atom). No sirve Word porque agrega "metadatos", no escribe texto plano</p>
+                <article id="article2">
+                    <h3>Herramientas de desarrollo</h3>
+                    <p>Usar programas que escriba texto plano (Sublime Text, Visual Studio Code, Atom). No sirve Word porque agrega "metadatos", no escribe texto plano</p>
+                </article>
 
-                <h3>Convenio de archivos</h3>
-                <p>Reglas para ponerle nombre a los archivos:</p>
-                <ol>
-                    <li>No usar espacios, acentos, eñes. Si son varias palabras usar guiones "-" o "_". Pero si se usan guiones, siempre usar el mismo tipo</li>
-                    <li>Deben escribirse en minúsculas</li>
-                    <li>Deben tener la extensión html. Tener cuidado con la doble extensión de archivos (archivo.html.txt)</li>
-                    <li>El documento predeterminado es el que se muestra cuando ingresamos a la web y no se especifica un archivo. El nombre de este archivo por convención es index.html</li>
-                </ol>
+                <article id="article3">
+                    <h3>Convenio de archivos</h3>
+                    <p>Reglas para ponerle nombre a los archivos:</p>
+                    <ol>
+                        <li>No usar espacios, acentos, eñes. Si son varias palabras usar guiones "-" o "_". Pero si se usan guiones, siempre usar el mismo tipo</li>
+                        <li>Deben escribirse en minúsculas</li>
+                        <li>Deben tener la extensión html. Tener cuidado con la doble extensión de archivos (archivo.html.txt)</li>
+                        <li>El documento predeterminado es el que se muestra cuando ingresamos a la web y no se especifica un archivo. El nombre de este archivo por convención es index.html</li>
+                    </ol>
+                </article>
 
-                <h3>Atributos de las etiquetas</h3>
-                <p>Todas las etiquetas pueden tener atributos. Solamente la que inicia puede tener atributos. Puede haber más de un atributo, separado entre espacios entre sí. El valor se escribe entre comillas.</p>
-                <pre><code>
-                    <etiqueta atributo="valor">
-                        VER COMO AGREGAR CODIGO Contenido
-                    </etiqueta>
-                </code></pre>
+                <article id="article4">
+                    <h3>Etiquetas</h3>
+                    <p>Las etiquetas HTML están delimitadas por un inicio y un final de cada elemento. Lo que se encuentra dentro de la etiqueta (el contenido) es lo que estamos formateando. Toda etiqueta es un juego de pares: una etiqueta abre, otra etiqueta cierra</p>
 
-                <h3>Anidar etiquetas</h3>
-                <p>Se puede anidar una etiqueta dentro de otra. Lo más importante es recordar que siempre se cierran en orden inverso a la apertura.</p>
+                    <h4>Atributos de las etiquetas</h4>
+                    <p>Todas las etiquetas pueden tener atributos. Solamente la que inicia puede tener atributos. Puede haber más de un atributo, separado entre espacios entre sí. El valor se escribe entre comillas.</p>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_atributos.jpg" alt="ejemplo atributos en HTML">
+                    </div>
 
-                <h3>Comentarios HTML</h3>
-                <p>Es parte del código que el navegador no va a mostrar. </p>
-                <!-- bloque comentado -->
+                    <h4>Anidar etiquetas</h4>
+                    <p>Se puede anidar una etiqueta dentro de otra. Lo más importante es recordar que siempre se cierran en orden inverso a la apertura.</p>    
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_anidar_etiquetas.jpg" alt="ejemplo etiquetas anidadas HTML">
+                    </div>
 
-                <h3>Estructura básica</h3>
-                <p>Esta estructura de elementos debe insertarse siempre en cada documento. Ambas deben estar dentro de la etiqueta principal html</p>
-                <ul>
-                    <li>head: es la parte privada del documento, sirve de espacio de comunicación entre el sitio web y el navegador. Se incluyen las etiquetas de título, las etiquetas que importan archivos CSS y JS, las etiquetas meta</li>
-                    <li>body: contiene el contenido propiamente dicho del sitio</li>
-                </ul>
+                    <h4>Comentarios HTML</h4>
+                    <p>Es parte del código que el navegador no va a mostrar. Puede usarse para explicar el código, hacer una referencia o anular temporalmente un área del sitio.</p>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_comentario.jpg" alt="código comentado en HTML">
+                    </div>
 
-                <p>Dentro de head:</p>
-                <ul>
-                    <li>title: define el título de la página, se visualiza en la solapa del navegador</li>
-                    <li>meta: se utiliza para añadir información sobre la página (metadatos). También define el idioma y la codificación de la página</li>
-                </ul>
+                </article>
 
-                <h3>Docktype</h3>
-                <p>Al momento de escribir un sitio HTML, lo primero que tenemos que definir es el DOCKTYPE. Es el que declara el tipo de documento, sirve para indicar que el documento está escrito siguendo la estructura de un DTD concreto.</p>
-                <p>Un DTD es la definición del tipo de documento y determina la estructura que debe tener el documento. Usamos el DOCKTYPE al inicio de la página para informar qué DTD usamos</p>
+                <article id="article5">
+                    <h3>Estructura básica</h3>
+                    <p>Esta estructura de elementos debe insertarse siempre en cada documento. Ambas deben estar dentro de la etiqueta principal html</p>
+                    <ul>
+                        <li>head: es la parte privada del documento, sirve de espacio de comunicación entre el sitio web y el navegador. Se incluyen las etiquetas de título, las etiquetas que importan archivos CSS y JS, las etiquetas meta</li>
+                        <li>body: contiene el contenido propiamente dicho del sitio</li>
+                    </ul>
 
-                <h3>Tipos de etiquetas</h3>
-                <p>Todas las etiquetas que van dentro del body se dividen en dos grupos:</p>
-                <ul>
-                    <li><strong>Elementos de bloque:</strong> son los que (sin ser modificados por CSS) ocupan el 100% del ancho del contenedor y se mostrarán uno abajo del otro. Ejemplos: p, br, h1 al h6</li>
-                    <li><strong>Elementos de línea:</strong> solo ocupan el ancho que diga su contenido y se ven uno al lado del otro. Suelen ser elementos cuya función es modificar el texto. Ejemplos: b, em, i, strong</li>
-                </ul>
+                    <p>Dentro de head:</p>
+                    <ul>
+                        <li>title: define el título de la página, se visualiza en la solapa del navegador</li>
+                        <li>meta: se utiliza para añadir información sobre la página (metadatos). También define el idioma y la codificación de la página</li>
+                    </ul>
 
-                <h3>Niveles de encabezado</h3>
-                <p>Las etiquetas h1 al h6 son los encabezados y son semánticamente el texto que "encabeza" o titula el contenido. Estas etiquetas no representan un texto más grande o más chico, sino que marcan una jerarquía.</p>
-                <p><strong>No usamos un h3 si antes no hubo un h2.</strong> El h3 es un sub-nivel de contenido del h2, del nivel inmediato anterior. Si 2 titulos son igual de importantes, son el mismo nivel.</p>
-                <p>Sin embargo,<strong>solamente puede haber un h1 por página web. No en todo el sitio, sino en cada página web.</strong></p>
-                <p>La jerarquía de títulos se debe respetar en cada documento HTML que forme parte del sitio.</p>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_estructura_inicial.jpg" alt="estructura sitio HTML">
+                    </div>
 
-                <h3>Etiquetas semánticas</h3>
-                <p>HTML5 incorpora etiquetas semánticas que no sólo generan estructura, sino que también definen su contenido</p>
-                <div class="article__img">
-                    <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_etiquetas_semanticas.jpg" alt="esquema etiquetas semanticas html5">
-                </div>
-                <ul>
-                    <li>Header: define la cabecera de una página o sección</li>
-                    <li>Nav: cualquier cosa que te permita navegar dentro de tu sitio web. El menú tiene un nav pero también puede haber un nav en el footer donde haya más de un link que permita navegar dentro del sitio web. Es muy útil para la accesibilidad de personas con problemas de visión a través del uso de screen readers</li>
-                    <li>Main: define el contenido prinicpal o importante del documento. <strong>Solamente existe un elemento main en el documento</strong></li>
-                    <li>Section: marca secciones dentro de la web. Ej: quienes somos, un slider, etc</li>
-                    <li>Article: define contenido autónomo que podría existir independientemente del resto del contenido</li>
-                    <li>Aside: suele ser el menú del constado donde se da información adicional que no necesariamente se relaciona con el contenido principal</li>
-                    <li>Footer: define el pie de página o sección, incorpora la info con la que se suelen cerrar los sitios web. <strong>Header y footer suelen repetirse en todas las páginas del sitio</strong></li>
-                </ul>
+                </article>
 
-            </article>
+                <article id="article6">
+                    <h3>Docktype</h3>
+                    <p>Al momento de escribir un sitio HTML, lo primero que tenemos que definir es el DOCKTYPE. Es el que declara el tipo de documento, sirve para indicar que el documento está escrito siguendo la estructura de un DTD concreto.</p>
+                    <p>Un DTD es la definición del tipo de documento y determina la estructura que debe tener el documento. Usamos el DOCKTYPE al inicio de la página para informar qué DTD usamos</p>
+
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_docktype.jpg" alt="ejemplo estructura sitio web HTML">
+                    </div>
+                </article>
+
+                <article id="article7">
+                    <h3>Tipos de etiquetas</h3>
+                    <p>Todas las etiquetas que van dentro del body se dividen en dos grupos:</p>
+                    <ul>
+                        <li><strong>Elementos de bloque:</strong> son los que (sin ser modificados por CSS) ocupan el 100% del ancho del contenedor y se mostrarán uno abajo del otro. Ejemplos: p, br, h1 al h6</li>
+                        <li><strong>Elementos de línea:</strong> solo ocupan el ancho que diga su contenido y se ven uno al lado del otro. Suelen ser elementos cuya función es modificar el texto. Ejemplos: b, em, i, strong</li>
+                    </ul>
+                </article>
+
+                <article id="article8">
+                    <h3>Niveles de encabezado</h3>
+                    <p>Las etiquetas h1 al h6 son los encabezados y son semánticamente el texto que "encabeza" o titula el contenido. Estas etiquetas no representan un texto más grande o más chico, sino que marcan una jerarquía.</p>
+                    <p><strong>No usamos un h3 si antes no hubo un h2.</strong> El h3 es un sub-nivel de contenido del h2, del nivel inmediato anterior. Si 2 titulos son igual de importantes, son el mismo nivel.</p>
+                    <p>Sin embargo,<strong> solamente puede haber un h1 por página web. No en todo el sitio, sino en cada página web.</strong></p>
+                    <p>La jerarquía de títulos se debe respetar en cada documento HTML que forme parte del sitio.</p>
+                </article>
+
+                <article id="article9">
+                    <h3>Etiquetas semánticas</h3>
+                    <p>HTML5 incorpora etiquetas semánticas que no sólo generan estructura, sino que también definen su contenido</p>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase01_etiquetas_semanticas.jpg" alt="esquema etiquetas semanticas html5">
+                    </div>
+                    <ul>
+                        <li>Header: define la cabecera de una página o sección</li>
+                        <li>Nav: cualquier cosa que te permita navegar dentro de tu sitio web. El menú tiene un nav pero también puede haber un nav en el footer donde haya más de un link que permita navegar dentro del sitio web. Es muy útil para la accesibilidad de personas con problemas de visión a través del uso de screen readers</li>
+                        <li>Main: define el contenido prinicpal o importante del documento. <strong>Solamente existe un elemento main en el documento</strong></li>
+                        <li>Section: marca secciones dentro de la web. Ej: quienes somos, un slider, etc</li>
+                        <li>Article: define contenido autónomo que podría existir independientemente del resto del contenido</li>
+                        <li>Aside: suele ser el menú del constado donde se da información adicional que no necesariamente se relaciona con el contenido principal</li>
+                        <li>Footer: define el pie de página o sección, incorpora la info con la que se suelen cerrar los sitios web. <strong>Header y footer suelen repetirse en todas las páginas del sitio</strong></li>
+                    </ul>
+    
+                </article>
+
+
+            </div>
 
         </section>
     </main>
