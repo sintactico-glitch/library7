@@ -1,0 +1,13 @@
+HTML como las mamuskas, nested tags
+
+<!DOCTYPE html>
+It specifies that this is an html5 document
+
+<html lang="en">
+- opens html page, </html> closes the page
+- sets up the language of the page, in this case to english
+
+<head>
+<meta charset="UTF-8"> character sets
+the content of head is not seen on the screen except the title
+

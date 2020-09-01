@@ -1,0 +1,10 @@
+Just because you write code on your document it doesn't mean it has "formating"
+
+We don't talk about formating in HTML
+
+Hyper Text Markup Language
+We're identifying the structure of our content
+What is the title? What is a paragraph? What is a list? 
+It has nothing to do with how it looks
+
+WHAT AM I TRYING TO COMMUNICATE?

@@ -1,0 +1,5 @@
+html page without css
+each browser has a stylesheet of its own
+the "formating" we see without css is a figment of our browser's imagination
+html has no format associated with it
+

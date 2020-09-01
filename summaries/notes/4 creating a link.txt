@@ -1,0 +1,5 @@
+a = anchor
+href = hypertext reference
+
+tags like nouns
+atributes like descriptions
