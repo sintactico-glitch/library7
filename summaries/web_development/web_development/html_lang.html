@@ -11,55 +11,66 @@
 <body>
     <main class="container">
         <h1>HTML</h1>
-        <h2>Content categories</h2>
         <a href="../../web_development.html">Back to Web Development</a>
-        <p>Every HTML can be categorized in one or more content categories. The categories describe share behavior and associated rules.</p>
-        <p>Elements exist that are not part of these categories.</p>
-        <ol>
-            <li><a href="#main_categories">Main categories</a>: describe common rules shared by many elements</li>
-            <li>Form-related content categories</li>
-            <li>Specific content categories: describes rare categories shared only by a few elements</li>
-        </ol>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">Content categories (Mozilla)</a>
 
-        <article id="main_categories">
-            <h3>Main Categories</h3>
-            <ul>
-                <li>
-                    <h4>Metadata content</h4>
-                    <p>They modify the presentation or behavior of the rest of the document, set up links to other documents.</p>
-                </li>
-                <li>
-                    <h4>Flow content</h4>
-                    <p>Contain text or embedded content.</p>
-                </li>
-                <li>
-                    <h4>Sectioning content</h4>
-                    <p>Create sections that define the header, footer elements, and heading content.</p>
-                </li>
-                <li>
-                    <h4>Heading content</h4>
-                    <p>Defines the title of a section.</p>
-                </li>
-                <li>
-                    <h4>Phrasing content</h4>
-                    <p>Defines the text and the mark-up it contains.</p>
-                </li>
-                <li>
-                    <h4>Embedded content</h4>
-                    <p>Imports another resource or inserts content from another mark-up language into the document.</p>
-                </li>
-                <li>
-                    <h4>Interactive content</h4>
-                    <p>Includes elements that are specifically designed for user interaction.</p>
-                </li>
-            </ul>
+        <section>
+            <h2>Content categories</h2>
+            
+            <p>Every HTML can be categorized in one or more content categories. The categories describe share behavior and associated rules.</p>
+            <p>Elements exist that are not part of these categories.</p>
+            <ol>
+                <li><a href="#main_categories">Main categories</a>: describe common rules shared by many elements</li>
+                <li>Form-related content categories</li>
+                <li>Specific content categories: describes rare categories shared only by a few elements</li>
+            </ol>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">Content categories (Mozilla)</a>
 
-            <div class="article__img">
-                <img src="../../../img/summaries/web_development/web_development/html/content_categories.png" alt="diagram of html's content categories">
-            </div>
-    
-        </article>
+            <article id="main_categories">
+                <h3>Main Categories</h3>
+                <ul>
+                    <li>
+                        <h4>Metadata content</h4>
+                        <p>They modify the presentation or behavior of the rest of the document, set up links to other documents.</p>
+                    </li>
+                    <li>
+                        <h4>Flow content</h4>
+                        <p>Contain text or embedded content.</p>
+                        <p><code>&lt;p&gt;</code> <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
+                    </li>
+                    <li>
+                        <h4>Sectioning content</h4>
+                        <p>Create sections that define the header, footer elements, and heading content.</p>
+                    </li>
+                    <li>
+                        <h4>Heading content</h4>
+                        <p>Defines the title of a section.</p>
+                        <p><code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
+                        <ul>
+                            <li>Headings use size to indicate their relative importance, but we should avoid using heading tags to resize text</li>
+                            <li><strong>Avoid skipping heading levels</strong></li>
+                            <li>You should <strong>use only one &lt;h1&gt; per page</strong>. It's the most important heading and tells you the purpose of the page. You wouldn't have a book with more that one title!</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>Phrasing content</h4>
+                        <p>Defines the text and the mark-up it contains.</p>
+                    </li>
+                    <li>
+                        <h4>Embedded content</h4>
+                        <p>Imports another resource or inserts content from another mark-up language into the document.</p>
+                    </li>
+                    <li>
+                        <h4>Interactive content</h4>
+                        <p>Includes elements that are specifically designed for user interaction.</p>
+                    </li>
+                </ul>
+
+                <div class="article__img">
+                    <img src="../../../img/summaries/web_development/web_development/html/content_categories.png" alt="diagram of html's content categories">
+                </div>
+        
+            </article>
+        </section>
         
 
     </main>
