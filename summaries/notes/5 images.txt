@@ -1,0 +1,6 @@
+You can use a big image for your site, but it's not recommended.
+Say you put a big image that looks good on your pc but when someone looks at it with a phone it'll eat up their data plan and it'll take forever to load
+
+BEST PRACTICE: crop your images to the size you need them to be before uploading them
+
+Tiny JPG y Tiny PNG para reducir el tamaño
