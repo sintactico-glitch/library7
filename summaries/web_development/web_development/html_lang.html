@@ -23,7 +23,7 @@
                 <li>Form-related content categories</li>
                 <li>Specific content categories: describes rare categories shared only by a few elements</li>
             </ol>
-            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">Content categories (Mozilla)</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content">Read more: Content categories (Mozilla)</a>
 
             <article id="main_categories">
                 <h3>Main Categories</h3>
@@ -35,7 +35,15 @@
                     <li>
                         <h4>Flow content</h4>
                         <p>Contain text or embedded content.</p>
-                        <p><code>&lt;p&gt;</code> <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
+                        <p><code>&lt;br&gt;</code> <code>&lt;p&gt;</code></p>
+                        <p> <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p> 
+                        <p><code>&lt;blockquote&gt;</code> <code>&lt;cite&gt;</code> <code>&lt;q&gt;</code></p>
+                        <p><code>&lt;ul&gt;</code> <code>&lt;ol&gt;</code> <code>&lt;li&gt;</code></p>
+                        <p>Atributes on Ordered Lists:</p>
+                        <ul>
+                            <li>reversed: boolean atribute that puts list items in reverse order (numbered from high to low) <code>reversed=true</code></li>
+                            <li>start: an integer to start counting from the list items. For example, if we want to start numbering at 3 <code>start="3"</code></li>
+                        </ul>
                     </li>
                     <li>
                         <h4>Sectioning content</h4>
@@ -54,6 +62,10 @@
                     <li>
                         <h4>Phrasing content</h4>
                         <p>Defines the text and the mark-up it contains.</p>
+                        <p><code>&lt;br&gt;</code></p>
+                        <p><code>&lt;br&gt;</code> are used to produce a line break, useful for poems or writing an address. However, <strong>creating paragraphs using <code>&lt;cite&gt;</code> is a bad practice</strong>, it's frustrating and difficult to understand for people using screen readers.</p>
+                        <p><code>&lt;cite&gt;</code></p>
+                        <p><code>&lt;br&gt;</code> is used to include a reference to the source of quoted material contaied with a <code>&lt;blockqupte&gt;</code> or <code>&lt;q&gt;</code> element.</p>
                     </li>
                     <li>
                         <h4>Embedded content</h4>
@@ -62,6 +74,10 @@
                     <li>
                         <h4>Interactive content</h4>
                         <p>Includes elements that are specifically designed for user interaction.</p>
+                    </li>
+                    <li>
+                        <h4>Palpable content</h4>
+                        <p>Content is palpable when it's neither empty or hidden; it's content that is rendered and substantive. Elements whose model is flow content or phrasing content should have at least one node which is palpable.</p>
                     </li>
                 </ul>
 
