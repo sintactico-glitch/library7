@@ -35,9 +35,10 @@
                     <li>
                         <h4>Flow content</h4>
                         <p>Contain text or embedded content.</p>
-                        <p><code>&lt;br&gt;</code> <code>&lt;p&gt;</code></p>
+                        <p><code>&lt;p&gt;</code> <code>&lt;br&gt;</code> <code>&lt;a&gt;</code></p>
                         <p> <code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p> 
                         <p><code>&lt;blockquote&gt;</code> <code>&lt;cite&gt;</code> <code>&lt;q&gt;</code></p>
+                        <p><code>&lt;img&gt;</code></p>
                         <p><code>&lt;ul&gt;</code> <code>&lt;ol&gt;</code> <code>&lt;li&gt;</code></p>
                         <p>Atributes on Ordered Lists:</p>
                         <ul>
@@ -63,21 +64,41 @@
                         <h4>Phrasing content</h4>
                         <p>Defines the text and the mark-up it contains.</p>
                         <p><code>&lt;br&gt;</code></p>
-                        <p><code>&lt;br&gt;</code> are used to produce a line break, useful for poems or writing an address. However, <strong>creating paragraphs using <code>&lt;cite&gt;</code> is a bad practice</strong>, it's frustrating and difficult to understand for people using screen readers.</p>
+                        <ul>
+                            <li><code>&lt;br&gt;</code> are used to produce a line break, useful for poems or writing an address. However, <strong>creating paragraphs using <code>&lt;br&gt;</code> is a bad practice</strong>, it's frustrating and difficult to understand for people using screen readers.</li>
+                        </ul>
                         <p><code>&lt;cite&gt;</code></p>
-                        <p><code>&lt;br&gt;</code> is used to include a reference to the source of quoted material contaied with a <code>&lt;blockqupte&gt;</code> or <code>&lt;q&gt;</code> element.</p>
+                        <ul>
+                            <li><code>&lt;cite&gt;</code> is used to include a reference to the source of quoted material contaied with a <code>&lt;blockquote&gt;</code> or <code>&lt;q&gt;</code> element.</li>
+                        </ul>
+                        <p><code>&lt;a&gt;</code></p> 
+                        <p><code>&lt;img&gt;</code></p>
                     </li>
                     <li>
                         <h4>Embedded content</h4>
                         <p>Imports another resource or inserts content from another mark-up language into the document.</p>
+                        <p><code>&lt;img&gt;</code></p>
+                        <ul>
+                            <li>Omiting the <code>alt</code> altogether indicates that the image is a key part of the content and there's no textual equivalent available</li>
+                            <li>Setting the attribute to an empty string <code>alt=""</code> indicates that the image is <em>not</em> a key part of the content, it's a decoration, and non-visual browsers can omit it</li>
+                            <li>The <code>title</code> atribute is not a good substitute for the <code>alt</code> attribute. It shouldn't be used as additional captioning information, the user may never see it if they don't hover over the image. If the image needs a caption, use the <code>figure</code> and <code>figcaption</code> elements</li>
+                            <li>Also, <strong>avoid duplicating the <code>alt</code> attribute's text on the <code>title</code> atribute</strong>. Screen readers read the same description twice, which is confusing for users</li>
+                        </ul>
                     </li>
                     <li>
                         <h4>Interactive content</h4>
                         <p>Includes elements that are specifically designed for user interaction.</p>
+                        <p><code>&lt;a&gt;</code></p>
+                        <ul>
+                            <li>When using the <code>target="_blank"</code> atribute on <code>&lt;a&gt;</code>, add <code>rel="noreferrer noopener"</code> to avoid security issues</li>
+                            <li>A common mistake is to only link the words "click here" or "here". <strong>It's a best practice to use descriptive text as the link</strong>. For example, "Learn more <a href="·">about our products</a>". This greatly helps people using screen readers</li>
+                            <li><strong>You should only use a hyperlink for navigation to a real URL.</strong> If it's for something else, use <code>&lt;button&gt;</code></li>
+                        </ul>
                     </li>
                     <li>
                         <h4>Palpable content</h4>
                         <p>Content is palpable when it's neither empty or hidden; it's content that is rendered and substantive. Elements whose model is flow content or phrasing content should have at least one node which is palpable.</p>
+                        <p><code>&lt;img&gt;</code></p>
                     </li>
                 </ul>
 
