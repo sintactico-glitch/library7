@@ -23,6 +23,7 @@
                 <li><a href="#chapter4">Quotation and Citation</a></li>
                 <li><a href="#chapter5">Links and Anchors</a></li>
                 <li><a href="#chapter6">Images</a></li>
+                <li><a href="#chapter7">Strong and Emphasized Text</a></li>
             </ol>
             <a href="../frontend_masters_bootcamp.html">Volver al curso</a> <br>
             <a href="../../../web_development.html">Back to Web Development</a>
@@ -88,6 +89,30 @@
                         <li>The <code>title</code> atribute is not a good substitute for the <code>alt</code> attribute. It shouldn't be used as additional captioning information, the user may never see it if they don't hover over the image. If the image needs a caption, use the <code>figure</code> and <code>figcaption</code> elements</li>
                         <li>Also, <strong>avoid duplicating the <code>alt</code> attribute's text on the <code>title</code> atribute</strong>. Screen readers read the same description twice, which is confusing for users</li>
                     </ul>
+            </div>
+
+            <div id="chapter7">
+                <h2>Strong and Emphasized Text</h2>
+                <p><code>&lt;strong&gt;</code></p>
+                <ul>
+                    <li><code>&lt;strong&gt;</code> is used for content with "strong importance", serious things of urgency (warnings). This could be a sentence that is greatly important on the whole page, or to point out that some words have a greater importance compared to nearby content.</li>
+                    <li>Usually, <code>&lt;strong&gt;</code> is rendered by default with a bold font weight. However, it should <em>not</em> be used to apply bold styling, CSS <code>font-weight</code> should be used for this.</li>
+                    <li>The main difference between <code>&lt;strong&gt;</code> and <code>&lt;b&gt;</code> is that <code>&lt;strong&gt;</code> is for content that has a greater importance and <code>&lt;b&gt;</code> is used to draw attention to text without indicating that it's more important. <strong>Communicating meaning is what semantics are all about.</strong></li>
+                    <li>Example of the use of <code>&lt;strong&gt;</code>: Before proceeding, <strong>make sure you put on your safety goggles.</strong></li>
+                </ul>
+
+                <p><code>&lt;em&gt;</code></p>
+                <ul>
+                    <li>
+                        <p>The <code>&lt;em&gt;</code> element marks text that has stress emphasis compared to the surrounding text. This is often limited to a word or words of a sentence and it affects the meaning of the sentence itself. </p>
+                        <p>Example of the use of <code>&lt;em&gt;</code>: Actually, it's <em>Miss</em> Chanandler Bong</p>
+                    </li>
+                    <li>
+                        <p><code>&lt;em&gt;</code> represents stress emphasis on its contents. <code>&lt;i&gt;</code> represents text that is set off from the normal prose, like a foreign word, fictional character thoughts or when the text refers to the definition of the word.</p>
+                        <p>Example of the use of <code>&lt;i&gt;</code>: The <i>Queen Mary</i> sailed last night.</p>
+                    </li>
+                    <li><code>&lt;em&gt;</code> and <code>&lt;i&gt;</code> are usually displayed in italic type but it we only want to apply italic styling, we should use CSS <code>font-style</code>.</li>
+                </ul>
             </div>
         </section>
     </main>
