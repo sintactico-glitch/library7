@@ -17,7 +17,12 @@
         <aside class="index">
             <h3 class="index__title">Index</h3>
             <ol>
-                <li></li>
+                <li><a href="#chapter1">Headings</a></li>
+                <li><a href="#chapter2">Lists</a></li>
+                <li><a href="#chapter3">Line Break</a></li>
+                <li><a href="#chapter4">Quotation and Citation</a></li>
+                <li><a href="#chapter5">Links and Anchors</a></li>
+                <li><a href="#chapter6">Images</a></li>
             </ol>
             <a href="../frontend_masters_bootcamp.html">Volver al curso</a> <br>
             <a href="../../../web_development.html">Back to Web Development</a>
@@ -25,16 +30,65 @@
 
         <section class="summary">      
             <div id="chapter1">
-                <h2></h2>
-
-                <article id="article1"> 
-                    <h3></h3>    
-                    
+                <h2>Headings</h2>
+                <p>Define the title of a section.</p>
+                    <p><code>&lt;h1&gt;</code> <code>&lt;h2&gt;</code> <code>&lt;h3&gt;</code> <code>&lt;h4&gt;</code> <code>&lt;h5&gt;</code> <code>&lt;h6&gt;</code></p>
+                    <ul>
+                        <li>Headings use size to indicate their relative importance, but we should avoid using heading tags to resize text</li>
+                        <li><strong>Avoid skipping heading levels</strong></li>
+                        <li>You should <strong>use only one &lt;h1&gt; per page</strong>. It's the most important heading and tells you the purpose of the page. You wouldn't have a book with more that one title!</li>
+                    </ul> 
                 </article>
-                    
-
             </div>
 
+            <div id="chapter2">
+                <h2>Lists</h2>
+                <p><code>&lt;ul&gt;</code> <code>&lt;ol&gt;</code> <code>&lt;li&gt;</code></p>
+                <p>Atributes on Ordered Lists:</p>
+                    <ul>
+                        <li>reversed: boolean atribute that puts list items in reverse order (numbered from high to low) <code>reversed=true</code></li>
+                        <li>start: an integer to start counting from the list items. For example, if we want to start numbering at 3 <code>start="3"</code></li>
+                    </ul>
+            </div>
+
+            <div id="chapter3">
+                <h2>Line Break</h2>
+                <p><code>&lt;br&gt;</code></p>
+                    <ul>
+                        <li><code>&lt;br&gt;</code> are used to produce a line break, useful for poems or writing an address. However, <strong>creating paragraphs using <code>&lt;br&gt;</code> is a bad practice</strong>, it's frustrating and difficult to understand for people using screen readers.</li>
+                    </ul>
+            </div>
+
+            <div id="chapter4">
+                <h2>Quotation and Citation</h2>
+                <p><code>&lt;blockquote&gt;</code> <code>&lt;q&gt;</code> <code>&lt;cite&gt;</code></p>
+                    <ul>
+                        <li><code>&lt;blockquote&gt;</code> is used for longer quotes in a separate block.</li>
+                        <li><code>&lt;q&gt;</code> is used for shorter quotes inline</li>
+                        <li><code>&lt;cite&gt;</code> is used to include a reference to the source of quoted material contaied with a <code>&lt;blockquote&gt;</code> or <code>&lt;q&gt;</code> element.</li>
+                    </ul>
+            </div>
+
+            <div id="chapter5">
+                <h2>Links and Anchors</h2>
+                <p><code>&lt;a&gt;</code></p>
+                    <ul>
+                        <li>When using the <code>target="_blank"</code> atribute on <code>&lt;a&gt;</code>, add <code>rel="noreferrer noopener"</code> to avoid security issues</li>
+                        <li>A common mistake is to only link the words "click here" or "here". <strong>It's a best practice to use descriptive text as the link</strong>. For example, "Learn more <a href="·">about our products</a>". This greatly helps people using screen readers</li>
+                        <li><strong>You should only use a hyperlink for navigation to a real URL.</strong> If it's for something else, use <code>&lt;button&gt;</code></li>
+                    </ul>
+            </div>
+
+            <div id="chapter6">
+                <h2>Images</h2>
+                <p><code>&lt;img&gt;</code></p>
+                    <ul>
+                        <li>Omiting the <code>alt</code> altogether indicates that the image is a key part of the content and there's no textual equivalent available</li>
+                        <li>Setting the attribute to an empty string <code>alt=""</code> indicates that the image is <em>not</em> a key part of the content, it's a decoration, and non-visual browsers can omit it</li>
+                        <li>The <code>title</code> atribute is not a good substitute for the <code>alt</code> attribute. It shouldn't be used as additional captioning information, the user may never see it if they don't hover over the image. If the image needs a caption, use the <code>figure</code> and <code>figcaption</code> elements</li>
+                        <li>Also, <strong>avoid duplicating the <code>alt</code> attribute's text on the <code>title</code> atribute</strong>. Screen readers read the same description twice, which is confusing for users</li>
+                    </ul>
+            </div>
         </section>
     </main>
     
