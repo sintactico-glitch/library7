@@ -19,6 +19,13 @@
             <ol>
                 <li><a href="#chapter1">Listas</a></li>
                 <li><a href="#chapter2">Tablas</a></li>
+                <li>
+                    <a href="#chapter3">Formularios</a>
+                    <ul>
+                        <li><a href="#article1">Input</a></li>
+                        <li><a href="#article2">Controles de selección</a></li>
+                    </ul>
+                </li>
             </ol>
             <a href="../desarrollo_web_coderhouse.html">Volver al curso</a> <br>
             <a href="../../../web_development.html">Back to Web Development</a>
@@ -27,7 +34,7 @@
         <section class="summary">            
             <div id="chapter1">
                 <h2>Listas</h2>
-                <p>HTML permite agrupar elementos que tienen más significado en forma conjunta. Por ejemplo, el menú de navegación de un sitio wbe está formado por un grupo de palabras. Cada palabra tiene sentido por sí misma, de forma conjunta forman el menú de navegación de la página. <strong>Su significado conjunto es mayor que por separado.</strong> Esto se denomina como listas.</p>
+                <p>HTML permite agrupar elementos que tienen más significado en forma conjunta. Por ejemplo, el menú de navegación de un sitio web está formado por un grupo de palabras. Cada palabra tiene sentido por sí misma, de forma conjunta forman el menú de navegación de la página. <strong>Su significado conjunto es mayor que por separado.</strong> Esto se denomina como listas.</p>
                 <p>Algunos usos de las listas son:</p>
                 <ul>
                     <li>Enumeración de pasos o secuencias. Enumeración de propiedades o características técnicas</li>
@@ -56,7 +63,77 @@
                     <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_tablas.jpg" alt="ejemplo de una tabla en HTML">
                 </div>
             </div>
-        </section>
+
+            <div id="chapter3">
+                <h2>Formularios</h2>
+                <p>Contiene etiquetas para que el usuario ingrese información que luego va a ser enviada a un archivo encargado de procesarla.</p>
+                <p>Se usa la etiqueta <code>&lt;form&gt;</code> que requiere tres atributos para funcionar:</p>
+                <ul>
+                    <li><b>Action:</b> indica cuál es el archivo que recibe y procesa los datos. Debe ser de un lenguaje del lado del servidor (PHP, ASP, JSP). Si no indicamos un valor, por defecto es el mismo archivo donde está el formulario</li>
+                    <li><p><b>Method:</b> indica la forma en la que se recopilan y envían los datos. Hay dos métodos de envío: </p>
+                        <ul>
+                            <li>GET: la información viaja por la barra de direcciones a continuación del nombre del archivo</li>
+                            <li>POST: la información viaja junto a los encabezados del HTML (será "invisible)"</li>
+                        </ul>
+                        <p>Si no indicamos un valor, el default es GET. Los valores de estos atributos se escriben en mayúscula.</p>
+                    </li>
+                    <li><b>Enctype:</b> cómo se van a codificar los datos a enviar</li>
+                </ul>
+                <h3>Ingreso de texto</h3>
+                <p>Existen tres controles generales para el ingreso de texto:</p>
+                <ul>
+                    <li>Cajas de texto de una sola línea</li>
+                    <li>Cajas para el ingreso de contraseñas (el contenido no será visible)</li>
+                    <li>Cajas para contenido multilínea</li>
+                </ul>
+                
+                <article id="article1">
+                    <h4>Input</h4>
+                    <p>Indica que es un campo donde el usuario va a escribir algo. La etiqueta no se cierra.</p>
+                    <p>Requiere que con el atributo <code>type</code> se le diga el tipo que es (text, email, password, etc.)</p>
+                    <p>Con el atributo <code>name</code> se indica cómo se llama la información que estamos enviando.</p>
+                    <p>Si usamos <code>type="submit"</code> creamos un botón que permite enviar la información ingresada en el formulario.</p>
+                    <p>El atributo <code>placeholder</code> permite escribir un texto que ocupa el lugar del texto que se va a escribir. Un ejemplo sería para indicar cómo escribir un número de teléfono: <code>placeholder="11 0000 1111"</code></p>
+                    <div>
+                        <label for="telefono">Número de teléfono: </label>
+                        <input type="text" id="telefono" placeholder="11 0000 1111">
+                    </div>
+                </article>
+
+                <p>Con la etiqueta <code>label</code> definimos a cada elemento del formulario. El atributo principal es <code>for</code> que va referenciar a <code>label</code> con su elemento en el formulario. El valor del atributo <code>for</code> debe ser igual al valor del atributo id o name del elemento.</p>
+                <div class="article__img">
+                    <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_label.jpg" alt="ejemplo de la etiqueta label en HTML">
+                </div>
+
+                <article id="article2">
+                    <h4>Controles de selección</h4>
+                    <p>Es para los casos en los que no queremos que el usuario ingrese libremente un texto, sino que le damos una serie de opciones definidas. En todos los casos, el dato que nos llega al elegir una opción se define desde el atributo <code>value</code>.</p>
+                    <p>Hay tres grupos de controles de selección:</p>
+                    <ul>
+                        <li>
+                            <p><b>Botones de radio:</b> solo se puede elegir una opción</p>
+                            <div class="article__img">
+                                <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_botones_radio.jpg" alt="ejemplo botones de radio HTML">
+                            </div>
+                        </li>
+                        <li>
+                            <p><b>Casillas de chequeo:</b> de toda la lista de opciones, el usuario puede elegir una, todas o ninguna</p>
+                            <div class="article__img">
+                                <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_checkbox.jpg" alt="ejemplo código checkbox HTML">
+                            </div>
+                        </li>
+                        <li>
+                            <p><b>Menú desplegable:</b> solo se puede elegir una opción</p>
+                            <div class="article__img">
+                                <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_menu_desplegable.jpg" alt="ejemplo menu desplegable en HTML">
+                            </div>
+                        </li>
+                    </ul>
+                   
+                    
+                </article>
+            </div>
+        </section> 
     </main>
     
 </body>
