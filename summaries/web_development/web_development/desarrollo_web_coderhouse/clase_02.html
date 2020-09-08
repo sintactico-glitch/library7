@@ -147,21 +147,41 @@
             <div id="chapter4">
                 <h2>Audio y video</h2>
 
-                <h3>Video</h3>
-                <p>Al igual que con <code>img</code>, ccon <code>video</code> incluimos la ruta del archivo con el atributo <code>src</code></p>
-                <p>Dentro de las etiquetas <code>video</code> incluimos un texto que se mostrará en caso de que el navegador no pueda mostrar el video.</p>
-                <div class="article__img">
-                    <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_video.jpg" alt="etiqueta video de HTML">
-                </div>
-                <h4>Atributos de video</h4>
-                <ul>
-                    <li><code>controls</code>: basta con escribir el atributo solamente, sin valor. Si está presente, el navegador incluye controles de reproducción y volumen</li>
-                    <li><code>autoplay</code>: igual que con <code>controls</code>, basta con que el atributo esté presente para que se active la reproducción automática del video. Para remover la reproducción automática tenemos que borrar el atributo. <strong>Se recomienda no poner videos que se reproduzcan automáticamente para mejorar la experiencia de usuario</strong></li>
-                    <li><code>loop</code>: si se incluye el atributo, el video se reproduce desde el inicio al finalizar</li>
-                    <li><code>muted</code>:atributo booleano que indica el setting por defecto del audio del video. Su valor por defecto es <code>false</code> (el audio se reproducirá con el video)</li>
-                    <li><code>height</code> y <code>width</code>: especificar el valor solo en pixels, no porcentajes</li>
+                <article id="article4">
+                    <h3>Video</h3>
+                    <p>Al igual que con <code>img</code>, ccon <code>video</code> incluimos la ruta del archivo con el atributo <code>src</code></p>
+                    <p>Dentro de las etiquetas <code>video</code> incluimos un texto que se mostrará en caso de que el navegador no pueda mostrar el video.</p>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_video.jpg" alt="etiqueta video de HTML">
+                    </div>
+                    <h4>Atributos de video</h4>
+                    <ul>
+                        <li><code>controls</code>: basta con escribir el atributo solamente, sin valor. Si está presente, el navegador incluye controles de reproducción y volumen</li>
+                        <li><code>autoplay</code>: igual que con <code>controls</code>, basta con que el atributo esté presente para que se active la reproducción automática del video. Para remover la reproducción automática tenemos que borrar el atributo. <strong>Se recomienda no poner videos que se reproduzcan automáticamente para mejorar la experiencia de usuario</strong></li>
+                        <li><code>loop</code>: si se incluye el atributo, el video se reproduce desde el inicio al finalizar</li>
+                        <li><code>muted</code>:atributo booleano que indica el setting por defecto del audio del video. Su valor por defecto es <code>false</code> (el audio se reproducirá con el video)</li>
+                        <li><code>height</code> y <code>width</code>: especificar el valor solo en pixels, no porcentajes</li>
+                    </ul>
+                </article>
 
-                </ul>
+                <article id="article5">
+                    <h3>Audio</h3>
+                    <p>Comparte atributos con <code>video</code>: <code>controls</code>, <code>autoplay</code> y <code>loop</code>. Tienen el mismo funcionamiento.</p>
+                    <p>El atributo <code>preload</code> se usa en el elemento audio para almacenar temporalmente (buffering) archivos de gran tamaño. Puede tener 3 valores:</p>
+                    <ul>
+                        <li><code>none</code>: no almacena temporalmente el archivo</li>
+                        <li><code>auto</code>: almacena temporalmente el archivo</li>
+                        <li><code>metadata</code>: almacena temporalmente solo los metadatos del archivo</li>
+                    </ul>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_audio.jpg" alt="ejemplo etiqueta audio en HTML">
+                    </div>
+                </article>
+
+                <p>Tanto en <code>video</code> como en <code>audio</code> se pueden especificar múltiples fuentes de archivos con formatos diferentes. Esto ayuda a que el navegador pueda cargar el video/audio en caso de no poder leer una extensión particular.</p>
+                <div class="article__img">
+                    <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase02_fuentes_multiples.jpg" alt="ejemplo de múltiples fuentes en etiqueta video de HTML">
+                </div>
             </div>
         </section> 
     </main>
