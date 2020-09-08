@@ -1,0 +1,64 @@
+Capítulo 2 - Cómo jugar
+
+En Dungeon World no hay turnos ni reglas que te digan cuándo puedes hablar. Los jugadores se alternan siguiendo el ritmo natural de la conversación. El DJ dice algo y el jugador responde. El jugador hace una pregunta o afirmación y el DJ le dice lo que sucede. No hay monólogos en Dungeon World, solo conversaciones
+
+Las reglas ayudan a dar forma a la conversación del juego. Cada regla tiene un desencadenante en la ficción que te indica cuándo se supone que debe irrumpir en la conversación. Los detalles creados por el DJ u otros jugadores son importantes, permiten modificar los movimientos que puedes hacer, ofrecer una oportunidad o crear un desafío
+
+***
+
+MOVIMIENTOS 
+
+Los movimientos depende de las características de los personajes y de sus modificadores
+Características:
+    - Fuerza            FUE 
+    - Constitución      CON
+    - Destreza          DES 
+    - Inteligencia      INT
+    - Carisma           CAR 
+Miden la capacidad del jugador entre 3 y 18, siendo 18 la capacidad máxima de un mortal
+Cada característica lleva asociada un modificador que se usa cuando se tira esa característica, que van de 3 a -3
+
+Los movimientos son reglas que te dicen cuándo se desencadenan y qué efectos tienen. Un movimiento depende de una acción narrada y siempre tiene un efecto en la narración (la acción y el efecto tienen lugar en el mundo de los personajes). 
+Cuando un jugador describe que su personaje está haciendo algo que desencadena un movimiento, ese movimiento tiene lugar y se aplican sus reglas. Si el movimiento requiere una tirada, la descripción te dirá qué dados tienes que tirar y cómo interpretar los resultados.
+
+UN PERSONAJE NO PUEDE EMPRENDER UNA ACCIÓN QUE DESENCADENE UN MOVIMIENTO SIN QUE TENGA LUGAR ESE MOVIMIENTO. Por ejemplo, un personaje le dice al DJ que pasa al lado de un ogro con hacha para abrir una puerta. Lo que está haciendo es el movimiento "Desafiar el peligro" (que tiene lugar cuando actúas a pesar de una amenaza inminente). El jugador no puede describir cómo su personaje pasa al lado del ogro sin problemas, es necesario que haga la tirada para ver si logra la acción. 
+Todos el mundo debería estar atento para saber cuándo se aplicaría un movimiento. Si no están de acuerdo, charlarlo hasta que todes estén de acuerdo.
+
+
+Movimientos y dados
+
+Para la mayoría de los movimientos incluyen la frase "tira+x" donde "x" es el modificador de una característica (FUE, CON, etc). 
+Tirar significa:    tirás 2 dados de 6 caras (d6) y sumás el valor del modificador
+(Algunas tiradas requieren que se sume otro valor a la tirada en vez del modificador)
+
+Los resultados de las tiradas son:
+    - 10+       lo conseguís sin problemas
+    - 7 a 9     lo conseguís pero con complicaciones
+    - 6-        problemas, el DJ te dice qué pasa pero sumás PX (puntos experiencia)
+
+
+Movimientos y equipo
+
+El papel más importante del equipo de un personaje es ayudar a describir los movimientos que hace
+    - Las armas son propensas a modificar el tipo de movimientos que puedes desencadenar. Por ej, con una daga podés atacar fácilmente al globin que te muerde una pierna pero con una lanza está más complicado
+    - Los objetos y el equipo tienen etiquetas. Algunas etiquetas tienen efectos específicos en las reglas (como armaduras que reducen daño). Otras etiquetas afectan a la narración (por ej, la etiqueta "cerca" indica a qué distancia tiene que estar el enemigo para poder usarla)
+
+Los efectos de los movimientos
+
+LOS EFECTOS DE LOS MOVIMIENTOS SIEMPRE TIENEN LUGAR EN EL MUNDO DE FICCIÓN EN EL QUE HABITAN LOS PERSONAJES. Un 10+ en una tirada de Saja-Raja implica un efecto mecánico, sino que le hiciste daño a alguien y ganaste. 
+Una vez que tenés una idea del efecto que tuvo la tirada, INCORPORALO A LA CONVERSACIÓN. 
+Los efectos de los movimientos son siempre un reflejo de lo que ocurre en la ficción que están los personajes de los jugadores
+
+Algunos movimientos:
+    - Usan la frase "hacer daño". La tirada es siempre con el dado de daño y a veces el arma puede añadir o restar daño
+    - Dicen "recibes +1 para la siguiente tirada". Es siempre para la tirada de movimiento, no para tiradas de daño. Puede haber una condición, como que sea +1 solo para tiradas de Saja-Raja
+    - Dicen "recibes +1 en adelante". Aplica para todas las tiradas de movimiento, no las de daño. Pueden tener condiciones y también pueden indicar qué condiciones hacen que finalice (ej "hasta que interrumpas el conjuro)
+      En estos dos casos, la bonificación puede ser mayor a +1 o una penalización como -1
+    - Dan "puntos". Los puntos son monedas de cambio que permiten hacer algunas elecciones gastando esos puntos en la forma en que indique el movimiento. Siempre aplican al mismo movimiento, no podés ganar puntos en Defender y usarlos en Experto en trampas
+    - Ofrecen una elección. Por ej, con un +10 en Saja-Raja podés elegir hacerle más daño al enemigo y ponerte en riesgo de un contrataque
+    - Dan la oportunidad de decir algo más sobre el personaje. Por ej, con el movimiento Exhibir conocimientos puede que el DJ pregunte cómo sabés eso. Es una chance de añadir a la historia del personaje, cuidando que no contradiga lo que se dijo antes
+    - Dicen "marca PX", dan 1 punto de PX
+
+***
+
+
