@@ -61,4 +61,92 @@ Algunos movimientos:
 
 ***
 
+DAÑO Y CURACIÓN
+
+Puntos de golpe:    puntos de vida del jugador
+                    La clase indica el máximo de PG, igual que Constitución (a mayor Constitución, más PG)
+
+Daño:       cuando un jugador recibe daño se le resta a su PG 
+            si tiene armadura, primero se resta el daño a la armadura
+            el daño lo determina el atacante, depende de su clase, el arma que use y el movimiento que haga
+            para determinar el daño se puede hacer una tirada de dado. esto funciona para ataques o para otras situaciones que pueden hacer daño (caer a un pozo, que te golpee un escombro, etc)
+            - Daño que puede causar moretones: dado d4
+            - Daño que puede hacer una herida leve: dado d6
+            - Daño que puede romper huesos: dado d8
+            - Daño que puede matar a una persona normal: dado d10
+            perder PG con el daño es solo parte de la ficción. Si a tu personaje le cortan un brazo, también tenés que ver cómo va a sobrellevar el resto del dungeon sin un brazo. Si a tu personaje le cortan la cabeza entonces muere, no es que pierde PG
+            Si varias criaturas atacan a la vez, tirar el daño más alto de todas ellas y sumar un +1 por cada criatura adicional que ataque (Ej: 1 goblin de daño d10 y 3 goblins de daño d6. Tiramos el d10 y sumamos +3 por los 3 goblins)
+            El valor mínimo de daño es 0
+
+Curación:       El daño se puede curar con asistencia médica o naturalmente.
+                Con asistencia médica, el movimiento de curación indica cuánto PG se recupera
+                Naturalmente se recupera PG cuando se acampa, es decir, cuando el jugador descansa sin hacer nada que agrave sus heridas
+
+Muerte:         Si un personaje queda en 0PG debe hacer una tirada de Último aliento
+                En este estado puede encontrar a la Muerte y negociar, como si logra vivir deberá realizar algún tipo de tarea. El jugador también puede recibir conocimiento desde el otro lado del velo
+                Si después de la tirada sigue en 0PG, está vivo pero inconsciente. Si suma PG puede incorporarse a la batalla. Si vuelve a 0PG deberá hacer una tirada de Último aliento nuevamente
+
+Después de la Muerte:       Si tu personaje muere, los jugadores restantes pueden pedirle al DJ que lo resucite
+                            El DJ expondrá las condiciones que deben cumplirse para que el personaje resucite. Puede ser una quest o algo sencillo como donar monedas a un templo. Estas condiciones pueden ser un punto para incorporar algo del mundo que tenías ganas de introducir
+                            Más allá de si tu personaje puede resucitar, debes crear un personaje nuevo de nivel 1 al morir. Para darle sentido a la historia puede ser un pariente o amado del personaje que murió que busca venganza
+
+Debilidades:        Las debilidades están asociadas a una característica y proporciona un -1 al modificador de esa
+                    característica
+                    Las debilidades son más difíciles de curar que el daño, puede haber hechizos que lo hagan o haceer que el jugador tenga reposo (más de un campamento)
+                    - Debilitado (FUE)
+                    - Tembloroso (DES)
+                    - Enfermo (CON)
+                    - Aturdido (INT)
+                    - Confundido (SAB)
+                    - Marcado (CAR)
+
+***
+MAGIA
+
+Cualquier habilidad que vaya más allá de lo físicamente posible es magia 
+Procedimiento básico de conjuros:
+- Conocer: son los conjuros a los que tiene acceso el jugador. Las clases que hacen magia empiezan sabiendo conjuros básicos en nivel 1. A medida que suben de nivel, anotan un nuevo conjuro en su libro de hechizos y pueden usarlos
+- Preparar: tiempo que le lleva al personaje lanzar el conjuro
+- Lanzar: apelar a una deidad, hacer movimientos físicos, hacer un cántico. Al lanzar un conjuro se usa el movimiento de Lanzar conjuro. Si saca +10, el conjuro es exitoso. Si saca etre 7 y 9, el conjuro se lanza pero hay problemas y el jugador debe tomar una decisión
+- Olvidar: al momento de lanzar el conjuro uno de los resultados posibles es que el conjuro sea olvidado (-7 en la tirada). En ese caso el jugador no recuerda cómo hacer el conjuro pero lo sigue conociendo. Puede intentar lanzarlo nuevamente comenzando de la etapa de Preparar
+
+***
+MEJORAR PERSONAJE
+
+A medidad que se va jugando, los personajes ganan puntos de experiencia (PX) y suben de nivel. Cuando el jugador cambia algo en su hoja de personaje, el personaje refleja ese cambio en la historia. Cuando cambia algo en la historia, hay que modificar la hoja de personaje para que refleje el cambio. Lo importante es la narrativa y los cambios que se hagan al personaje deben ayudar a contar una historia interesante
+
+Cosas que dan PX:
+    - Explorar
+    - Luchar contra enemigos
+    - Reunir tesoros
+    - Cumplir objetivos de alineamiento
+    - Resolver un vínculo
+    - Tiradas de -6 ganan 1PX
+
+Cuando se supera el nivel 10, el jugador tiene las siguientes opciones:
+- Retirarte a un lugar seguro: se crea un personaje nuevo desde nivel 1
+- Tomar un aprendiz: creas un personaje de aprendiz y jugas con ambos dependiendo de lo que requiera la historia. El personaje que está en nivel 10 no gana más PX
+- Cambiar a una clase nueva: mantiene las características, raza, PG y los movimientos que el DJ y el jugador consideren necesarios para la historia. Se pierden todos los movimientos restantes y se los reemplazan con los niveles iniciales de la nueva clase elegida
+
+***
+VÍNCULOS
+
+Los vínculos son lo que hacen que los personajes de los jugadores no sean un grupo de extraños. Cada vínculo es una frase sencilla que relaciona tu personaje con otro
+Al final de cada sesión de juego se pueden resolver los vínculos. Un vínculo se resuelve cuando ya no describe tu relación con otra persona. Por ejemplo, Thania solía cuidarte las espaldas pero después de que te abandonó con los goblins ya no estás tan seguro
+Cada vez que mires un vínculo y pienses "esto ya no es un factor importante en nuestra relación" es momento de resolver el vínculo. Al resolver el vínculo se gana PX
+
+Una vez que resuelvas un vínculo, anota uno nuevo. Puede ser con el mismo personaje o con otros. Es recomendable tomar algo de lo sucedido en la última sesión y usarlo
+    La rapidez de reflejos de Anthor cuando peleamos al dragón me salvó, le debo una
+    Rannir ganó la Espada del Horizonte haciendo trampa, voy a conseguir que sea mía 
+    Thompson es un cobarde y un incompetente, hay que vigilarlo para que sabotee nuestros objetivos
+
+***
+ALINEAMIENTO 
+
+
+
+                
+
+
+
 
