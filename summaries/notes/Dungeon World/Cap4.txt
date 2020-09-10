@@ -1,0 +1,141 @@
+MOVIMIENTOS BÁSICOS
+
+Tirar 2d6 + lo que especifica cada movimiento
+
+SAJA-RAJA
+Cuando ataques a un enemigo en combate cuerpo a cuerpo, tira +FUE
+- Con un +10 haces daño al enemigo y evitas su ataques. Puedes hacer un +1d6 de daño y exponerte a un ataque del enemigo
+- Entre 7 y 9 haces daño al enemigo y el enemigo hace un ataque contra vos
+
+DISPARAR
+Cuando apuntas y disparas contra un enemigo a distancia, tira +DES
+- Con +10 consigues un buen disparo que hace daño
+- Entre 7 y 9, elegir una de las siguientes (que también hacen daño):
+    - Tienes que moverte y eso te pone en peligro. El DJ lo describirá
+    - Te conformas con lo que tienes: -1d6 de daño
+    - Tienes que disparar varias veces, lo que reduce en 1 tu munición
+
+DESAFIAR EL PELIGRO
+Cuando actúes a pesar de una amenaza inminente o sufras una desgracias, decí cómo te enfrentarías a eso y tira. Si lo haces:
+    - mediante fuerza bruta, tira +FUE
+    - apartándote o actuando rápido, tira +DES
+    - aguantando, tira +CON
+    - pensando rápido, tira +INT
+    - mediante fortaleza mental, tira +SAB
+    - usando tu encanto y habilidad social, tira +CAR
+- Con un +10 consigues lo que pretendías y la amenaza no surte efecto
+- Entre 7 y 9 tropiezas, dudas o no aguantas, el DJ te ofrecerá un resultado peor, un trato difícil  una elección complicada
+
+DEFENDER
+Cuando defiendes a otra persona, objeto o localización que sufra un ataque, tira +CON
+- Con un +10 recibes 3 puntos
+- Entre 7 y 9 recibes 1 puntos
+Cuando vos o aquello a lo que defiendes sea atacado puedes gastar los puntos a razón de 1 por cada una de las siguientes:
+    - Redirigir hacia ti un ataque contra aquello que defiendes
+    - Reducir a la mitad el daño o el efecto del ataque
+    - Abrir la defensa del atacante a un compañero, que recibe +1 a la siguiente tirada contra el atacante
+    - Hacer un daño igual a tu nivel al atacante
+
+EXHIBIR CONOCIMIENTOS
+Cuando consultas tus vastos conocimientos sobre un tema, tira +INT
+- Con un +10 el DJ te dirá algo interesante y útil sobre un tema relacionado a tu situación
+- Entre 7 y 9, el DJ te dirá algo interesante, depende de vos convertirlo en algo útil
+El DJ puede preguntar cómo sabés eso 
+
+DISCERNIR LA REALIDAD
+Cuando estudias detenidamente una situación o persona, tira +SAB
+- Con +10, haces 3 preguntas de la lista siguiente al DJ
+- Entre 7 y 9, haces 1 sola pregunta
+    - ¿Qué pasó recientemente acá?
+    - ¿Qué está a punto de pasar?
+    - ¿Qué debería estar buscando?
+    - ¿Qué hay aquí que sea útil o valioso para mí?
+    - ¿Quién manda aquí realmente?
+    - ¿Qué hay aquí que no es lo que parece?
+
+PARLAMENTAR
+Cuando tengas ventaja sobre un personaje del DJ y lo manipules, tira +CAR. La ventaja puede ser algo que quieren o necesitan
+- Con +10 hacen lo que pedís si antes les prometés que les vas a dar lo que quieren de vos
+- Entre 7 y 9 hacen lo que pedís, pero antes quieren ver pruebas de que vas a cumplir tu promesa
+
+AYUDAR O INTERFERIR
+Cuando ayudas o entorpeces a alguien, tira +VINCULO  con él
+- Con un +10, la persona que ayudas/entorpeces recibe un +1 o un -2 en su tirada
+- Entre 7 y 9 sigue el mismo modificador pero te exponés a un daño, castigo o coste
+
+***
+
+MOVIMENTOS ESPECIALES
+
+ÚLTIMO ALIENTO
+Cuando estás al borde de la muerte llegas a entrever lo que hay más allá de las Puertas Negras del Reino de la Muerte (el DJ te lo describirá). Después tira 1d6, sin modificador
+- Con +10 engañás a la muerte. Estás en una situación delicada pero sigues vivo
+- Entre 7 y 9, la Muerte te ofrecerá un trato. Si aceptas, vivís. Si lo rechazás, morís
+- Si fallás, estás en camino a la muerte. El DJ te dirá cuando mueres
+
+IMPEDIMENTA
+Cuando haces un movimiento cargando peso puede que tengas algunas dificultades. Si el peso que llevás es:
+- Igual o inferior a tu carga, no sufrís penalización
+- Mayor que tu carga (hasta tu carga+2), recibís -1 hasta que aligeres tu carga
+- Mayor que tu carga +2 tenés que elegir entre fallar automáticamente o tirar al menos 1 peso y tirar con un -1
+
+ACAMPAR
+Cuando te acomodes para descansar, consume una ración. Si estás en una zona peligrosa, decide el orden de guardia. Podés subir 1 nivel si tenés suficientes PX. Cuando te despiertes tras, al menos, unas horas de sueño, curate tanto daño como la mitad de tu PG máximo
+
+HACER GUARDIA
+Cuando estás de guardia y algo se aproxima al campamento, tira +SAB
+- Con un +10 despertás a todo el campamento y todes reciben un +1 en su próxima tirada
+- Entre 7 y 9 reaccionás tarde, tus compañeros están despiertos pero no tienen tiempo de prepararse
+- Si fallás estás en desventaja contra el intruso
+
+REALIZAR UN VIAJE PELIGROSO
+Cuando viajas a través de territorio hostil, elegir a un miembro del grupo que actúe como guía, otro como vigía y otro como intendente. Cada personaje con una responsabilidad tira +SAB
+- Con un +10:
+    - El guía reduce la cantidad de tiempo necesaria para llegar a destino (el DJ dice cuánto)
+    - El vigía detectará cualquier problema lo bastante rápido como para tener una ventaja sobre él
+    - El intendente reduce el número de raciones necesarias en 1
+- Entre 7 y 9 cada uno desempeña su tarea de forma habitual: se consume el número habitual de raciones, el viaje dura lo esperado, nadie los agarra de sorpresa y the party tampoco agarra a alguien por sorpresa
+
+FIN DE SESIÓN
+Cuando llegas al final de la sesión, elegí un vínculo que te parece que ya fue resuelto, que ya no sea importante. Pregunta al jugador con el que tienes el vínculo si está de acuerdo. Si lo está, anota PX y escribí un vínculo con un jugador, el mismo u otro
+Luego responder 3 preguntas:
+    ¿Aprendimos algo nuevo e importante sobre el mundo?
+    ¿Vencimos a un monstruo o enemigo importante?
+    ¿Obtuvimos un tesoro memorable?
+Por cada respuesta afirmativa, todes suman PX
+
+SUBIR DE NIVEL
+Cuando tengas tiempo de descansar (horas o días) y PX iguales (o mayores) a tu nivel actual +7, podés reflexionar sobre tus experiencias y perfeccionar tus habilidades
+    - Resta 7+ tu nivel actual de PX
+    - Incrementa en 1 tu nivel
+    - Elige un nuevo movimiento avanzado de tu clase
+    - Si eres mago también puedes añadir un nuevo conjuro a tu libro
+    - Elige una de las características y auméntala en 1 (esto puede cambiar el modificador). Cambiar la Constitución incrementará tus PG máximos. Las características no pueden ser superiores a 18
+
+FESTEJAR
+Cuando vuelvan triunfantes y hagan una gran fiesta, gasten 100 monedas de oro y tirar +1 por cada 100 monedas adicionales
+- Con +10 elegir 3 de las opciones
+- Entre 7 y 9 elegir 1 de las opciones
+- Si falla la tirada, elegir 1 opción pero la situación se va de las manos (el DJ dirá cómo)
+    - Entablan amistad con un PNJ útil
+    - Escuchan rumores de una oportunidad
+    - Obtienen información valiosa
+    - No se involucran en nada turbio, no los hechizan ni engañan
+
+ABASTECERSE
+Cuando vas a comprar algo con dinero, podés comprarlo a precio de mercado si es algo que se consigue fácilmente en el asentamiento que estés. Si es algo especial, más allá de si suele estar disponible o no, tira +CAR
+- Con +10 encuentras lo que buscás a un precio justo
+- Entre 7 y 9 tendrás que pagar más o conformarse con algo que no es exacto lo que querías pero se parece. El DJ dirá cuáles son las opciones
+
+RECUPERARSE
+Cuando no haces nada salvo descansar en un lugar cómodo y seguro durante 1 día, recuperás todos tus PG. Con 3 días de descanso podés borrar una debilidad a elección. Si estás a cargo de un curandero/médico, la debilidad se cura en 2 días
+
+CUENTAS PENDIENTES
+Cuando vuelves a un lugar civilizado en el que causaste problemas, tira +CARf
+- Con un +10 se corrió la voz de tus acciones y todos te reconoce
+- Entre 7 y 9 es lo mismo pero el DJ elige una complicación:
+    - Una autoridad local tiene una orden de arresto contra vos
+    - Alguien puso un precio sobre tu cabeza
+    - Alguien importante para vos sufrió la consecuencias de tus actos
+
+
