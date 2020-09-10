@@ -143,10 +143,61 @@ Una vez que resuelvas un vínculo, anota uno nuevo. Puede ser con el mismo perso
 ***
 ALINEAMIENTO 
 
+Es la manera de pensar y la brújula moral de tu personaje. Refleja aquello a lo que aspira a ser y puede servir de orientación cuando no estés seguro de que hacer
+Tipos de alineamiento:
+LEGAL:  aspiran a imporner el orden en el mundo, ya sea para su propio beneficio o el de otros
+            - Defender la palabra de la ley antes que su espíritu
+            - Cumplir una promesa relevante
+            - Llevar a alguien ante la justicia
+            - Elegir el honor por encima del beneficio personal
+            - Devolver un tesoro a su legítimo dueño
 
+CAÓTICO: abrazan los cambios e idealizan la desordenada realidad del mundo, valorando la libertad por encima de todo 
+            - Desvelar la corrupción
+            - Quebrantar una ley injusta para beneficiar a otro
+            - Derrotar a un tirano
+            - Desvelar la hipocresía
 
-                
+BUENO: ponen a los demás por delante de sí mismas
+            - Ignorar el peligro para ayudar a otros
+            - Guiar a otros a una justa batalla
+            - Rechazar el poder y la riqueza en pos de un bien mayor
+            - Desvelar una mentira peligrosa
+            - Mostrar clemencia
 
+MALVADO: ponen sus intereses por delante de los demás
+            - Aprovecharse de la confianza de alguien
+            - Provocar sufrimiento por puro placer
+            - Destruir algo hermoso
+            - Perturbar el orden establecido
+            - Dañar a un inocente
 
+NEUTRAL: busca su bienestar siempre y cuando eso no ponga em riesgo el bienestar de los demás. La mayor parte de las criaturas son Neutrales. Es dificil encontrar criaturas que anteponen un ideal por encima de sí mismas
+            - Convertirse en aliado de alguien poderoso
+            - Derrotar a un enemigo personal importante
+            - Descubrir los secretos de un enemigo
+            - Desvelar una verdad oculta
 
+El alineamiento puede y debe cambiar. Normalmente se da un cambio gradual hasta que la visión del mundo que tiene el personaje cambia, usualmente en un momento decisivo. 
+
+***
+MAZMORRAS
+Se suele asociar a la mazmorra con calabozos subterráneos pero pueden ser cualquier lugar lleno de peligros y oportunidades. Lo más importante a recordar es que las mazmorras son lugares VIVOS. Puede ser que hayas despachado a los guardias de la puerta pero estos tienen amigos y compañeros que pueden ir a buscarte
+Es muy importante contar con raciones para sobrevivir en la mazmorra. También buscar trampas, hay muchas de ellas. Un ladrón puede ayudarte a encontrarlas rápidamente. Si no tienes un ladrón en tu equipo, necesitarás ser más cuidadoso
+
+MONSTRUOS
+Básicamente, cualquier enemigo que encuentres que quiere matarte. Al pelear con un monstruo las apuestas son claras: tu vida o la suya. Es preferible evitar el combate a menos que tengas una ventaja frente al enemigo. Siempre es preferible sobrevivir en las mazmorras
+Los monstruos suelen ser:
+- Humanoides
+- Bestias o animales
+- Constructos (seres vivos creados)
+- Monstruos planares (vienen de otros mundos)
+- No muertos (lo que ya está muerto es muy dificil de matar)
+
+EL MUNDO
+Un mundo en movimiento es un mundo esperando ser modificado. El mundo seguiría andando sin los aventureros del juego, pero cada decisión que tomen cambiará ese mundo
+
+Están las mazmorras, las ciudades y las tierras salvajes que las unen. Ir por los caminos es fácil, pero si hace falta adentrarse en las tierras salvajes es necesario contar con un guía y un vigía, como mínimo
+
+En tus viajes encontrarás muchas personas, puedes establecer relaciones con ellas. Si las ayudas a conseguir sus objetivos, tu trayectoria por el mundo será más fácil. Puedes usar poder, magia o control mental para obtener el castillo de un duque, pero la reputación turbia que ello conlleva puede traer más complicaciones que beneficios
 
