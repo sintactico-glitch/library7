@@ -138,4 +138,7 @@ Cuando vuelves a un lugar civilizado en el que causaste problemas, tira +CARf
     - Alguien puso un precio sobre tu cabeza
     - Alguien importante para vos sufrió la consecuencias de tus actos
 
+PREPARARSE
+Cuando pasas tu tiempo de ocio estudiando, meditando o entrenando duramente, recibes punto de preparación. Si te preparas durante 1 semana o +, recibes 1 punto. Si te preparas durante 1 mes o mas, recibes 3 puntos. Cuando tu preparación sea útil, gasta 1 punto de preparación para recibir un +1 en cualquier tirada. Solo puedes gastar 1 punto de preparación por tirada
+
 
