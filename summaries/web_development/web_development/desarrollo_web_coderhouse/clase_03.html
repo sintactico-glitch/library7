@@ -20,6 +20,7 @@
                 <li><a href="#chapter1">Reglas sintácticas</a></li>
                 <li><a href="#chapter2">Insertar CSS</a></li>
                 <li><a href="#chapter3">Class & ID</a></li>
+                <li><a href="#chapter4">Cascada</a></li>
             </ol>
             <a href="../desarrollo_web_coderhouse.html">Volver al curso</a> <br>
             <a href="../../../web_development.html">Back to Web Development</a>
@@ -101,6 +102,93 @@
                 </div>
             </div>
 
+            <div id="chapter4">
+                <h2>Cascada</h2>
+                <p>La cascada es un algoritmo que define como combinar valores de propiedades de distintas fuentes. Es el núcleo de CSS.</p>
+                <p>Solo las declaraciones CSS (pares propiedad/valor) participan de la cascada.</p>
+
+                <article id="article1">  
+                    <h4>Origen de las declaraciones CSS</h4>
+                    <ul>
+                        <li>
+                            <p><b>Hoja de estilo del navegador(user-agent stylesheets):</b> son las hojas de estilo que dan el estilo por defecto a los navegadores. Distintos navegadores tiene diferentes user-agent stylesheets.</p>
+                            <p>Con frecuencia se hace un reset de las propiedades de la user-agent stylesheet, haciendo que propiedades específicas tengan valores conocidos (ej: ponerle margin:0 al body)</p>
+                        </li>
+                        <li>
+                            <p><b>Hoja de estilo del autor (author stylesheets):</b> es el tipo más común de hoja de estilo, es la que usamos para personalizar el estilo de un sitio.</p>
+                        </li>
+                        <li>
+                            <p><b>Hoja de estilo del usuario (user stylesheets):</b> el usuario del sitio puede sobreescribir el estilo por default del navegador usando una hoja de estilo personalizada. Un uso posible sería aumentar el tamaño de fuente si tuviera problemas de visión.</p>
+                        </li>
+                    </ul>
+
+                    <h4></h4>
+                </article>
+
+                <article id="article2">
+                    <h3>Orden de la cascada</h3>
+                    <ol>
+                        <li><p>Filtra todas las reglas de diferentes fuentes para mantener solo las reglas que aplican a cada elemento (las reglas cuyo selector y elemento coincidan y que estén en el @media apropiado)</p></li>
+                        <li>
+                            <p>Después ordena estas reglas de acuerdo a su importancia (si tienen o no <code>!important</code>) y de acuerdo a su origen.</p>
+                            <p>La cascada va en orden ascendente, por lo que los valores <code>!important</code> de la hoja de estilo definida por el usuario tiene precedencia sobre la hoja de estilo del navegador</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th> </th>
+                                        <th>Origen</th>
+                                        <th>Importancia</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>navegador</td>
+                                        <td>normal</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>usuario</td>
+                                        <td>normal</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>autor</td>
+                                        <td>normal</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>animaciones</td>
+                                        <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>autor</td>
+                                        <td><code>!important</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>usuario</td>
+                                        <td><code>!important</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>usuario</td>
+                                        <td><code>!important</code></td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>transiciones</td>
+                                        <td> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li></li>
+                    </ol>
+                </article>
+            </div>
+            
         </section> 
     </main>
     
