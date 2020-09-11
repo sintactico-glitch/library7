@@ -131,7 +131,7 @@
                         <li><p>Filtra todas las reglas de diferentes fuentes para mantener solo las reglas que aplican a cada elemento (las reglas cuyo selector y elemento coincidan y que estén en el @media apropiado)</p></li>
                         <li>
                             <p>Después ordena estas reglas de acuerdo a su importancia (si tienen o no <code>!important</code>) y de acuerdo a su origen.</p>
-                            <p>La cascada va en orden ascendente, por lo que los valores <code>!important</code> de la hoja de estilo definida por el usuario tiene precedencia sobre la hoja de estilo del navegador</p>
+                            <p>La cascada va en orden ascendente, por lo que los valores <code>!important</code> de la hoja de estilo definida por el usuario tiene precedencia sobre los valores normales de la hoja de estilo del navegador</p>
                             <table>
                                 <thead>
                                     <tr>
@@ -173,7 +173,7 @@
                                     </tr>
                                     <tr>
                                         <td>7</td>
-                                        <td>usuario</td>
+                                        <td>navegador</td>
                                         <td><code>!important</code></td>
                                     </tr>
                                     <tr>
@@ -184,9 +184,16 @@
                                 </tbody>
                             </table>
                         </li>
-                        <li></li>
+                        <li>En caso de igualdad, lo que define cuál se aplica es la especificidad del valor</li>
                     </ol>
                 </article>
+
+                <article id="article3">
+                    <h3>Animaciones CSS y la cascada</h3>
+                    <p>Las animaciones CSS (que usan <code>@keyframes</code>) definen animaciones entre estados. <strong>Los keyframes no forman parte de la cascada</strong>, lo que significa que CSS toma los valores de un solo <code>@keyframes</code> y nunca combina múltiples valores juntos.</p>
+                    <p>Cuando varios keyframes son apropiados, elige el último definido en el documento más importante, nunca los va a combinar.</p>
+                </article>
+
             </div>
             
         </section> 
