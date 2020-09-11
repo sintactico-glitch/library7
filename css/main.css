@@ -64,6 +64,10 @@ td, th {
   padding: 0 2em;
 }
 
+table {
+  margin: 1.5em 0;
+}
+
 /*  TYPOGRAPHY */
 h1,
 h2,
