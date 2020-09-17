@@ -21,6 +21,8 @@
                 <li><a href="#chapter2">Insertar CSS</a></li>
                 <li><a href="#chapter3">Class & ID</a></li>
                 <li><a href="#chapter4">Cascada</a></li>
+                <li><a href="#chapter5">Herencia</a></li>
+                <li><a href="#chapter6">Precedencia de declaraciones</a></li>
             </ol>
             <a href="../desarrollo_web_coderhouse.html">Volver al curso</a> <br>
             <a href="../../../web_development.html">Back to Web Development</a>
@@ -193,9 +195,43 @@
                     <p>Las animaciones CSS (que usan <code>@keyframes</code>) definen animaciones entre estados. <strong>Los keyframes no forman parte de la cascada</strong>, lo que significa que CSS toma los valores de un solo <code>@keyframes</code> y nunca combina múltiples valores juntos.</p>
                     <p>Cuando varios keyframes son apropiados, elige el último definido en el documento más importante, nunca los va a combinar.</p>
                 </article>
-
             </div>
             
+            <div id="chapter5">
+                <h2>Herencia</h2>
+                <p>El concepto de herencia significa que algunas propiedades CSS heredan por defecto los valore establecidos por el elemento padre, otras no.</p>
+                <p>Por ejemplo, si a un elemento se le establece el <code>color</code> y <code>font-family</code>, cada elemento que se encuentre dentro de él se mostrará con el mismo color y tipo de letra. A menos que se les haya aplicado un color y tipo de letra diferentes directamente.</p>
+
+                <article id="article4">
+                    <h3>Control de herencia</h3>
+                    <p>CSS tiene tres valores de propiedad universales para el control de herencia. Todas las propiedades CSS aceptan estos valores.</p>
+                    <ul>
+                        <li><b><code>inherit</code>:</b> activa la herencia, establece que el valor que se aplique sea igual al del elemento padre</li>
+                        <li><b><code>initial</code>:</b> hace que el valor que se aplica al elemento sea el que está establecido por default en el navegador</li>
+                        <li><b><code>unset</code>:</b> restablece la propiedad a su valor natural. Es decir, si la propiedad se hereda normalmente, actúa como <code>inherit</code>, sino actúa como <code>initial</code></li>
+                    </ul>
+                    <p>La propiedad <code>all</code> se puede usar para deshacer los cambios realizados al estilo de un elemento y volver a empezar de un punto de partida conocido. La propiedad <code>all</code> acepta todos los valores de herencia (<code>inherit</code>, <code>initial</code> y <code>unset</code>), con <code>unset</code> se hace el reset de estilos. </p>
+                </article>
+            </div>
+
+            <div id="chapter6">
+                <h2>Precedencia de declaraciones</h2>
+                <p>Cuando reglas distintas apuntan al mismo objeto:</p>
+                <ul>
+                    <li>Si son <b>propiedades distintas</b>, se combinan </li>
+                    <li>Si tienen alguna <b>propiedad repetida</b>, solo una queda </li>
+                </ul>
+                <p>La declaración <code>important!</code> corta la precedencia. Se usa para convertir una propiedad y valor particular en el elemento más específico, de modo que se invalidan las reglas normales de la cascada.</p>
+                <p>Las declaraciones contradictorias se aplicarán en el siguiente orden (las últimas prevalecen sobre las anteriores):</p>
+                <ol>
+                    <li>Declaraciones de la hoja de estilo del navegador</li>
+                    <li>Declaraciones de estilos personalizados por el usuario</li>
+                    <li>Declaraciones de las hojas de estilo de autor (los archivos que creamos los desarrolladores web)</li>
+                    <li>Declaraciones <code>!important</code> en las hojas de estilo de autor</li>
+                    <li>Declaraciones <code>!important</code> en las hojas de estilo del usuario</li>
+                </ol>
+
+            </div>
         </section> 
     </main>
     
