@@ -30,24 +30,20 @@ body {
 /*  Empieza .grid   */
 .grid {
     display: grid;
-    grid-template-columns: repeat (0.5fr, auto);
-    grid-auto-rows: repeat(20vh,auto);
+    grid-template-columns: repeat (auto, 0.5fr);
+    grid-auto-rows: repeat(100px,auto);
     grid-template-areas: 
-        "i i a a a a a . . ."
-        "i i a a a a a . . ."
-        ". . . b b b b b b ."
-        ". . . b b b b b b .";
-
+        "i i a a a a a . ."
+        "i i a a a a a . ."
+        ". . . b b b b b ."
+        ". . . b b b b b .";
+        
     /*  
         El problema que tengo con la grilla es que
         no le estoy encontrando la vuelta al tamaño
         de las columnas de la .gridm sino también el 
         tamaño de .index no toma el tamaño que quiero
     */    
-}
-
-header {
-    grid-template-areas: h;
 }
 
 .index {
@@ -65,5 +61,5 @@ article {
 /*  Termina .grid   */
 
 .highlight {
-    font-size: 1.9rem
+    font-size: 2rem
 }
