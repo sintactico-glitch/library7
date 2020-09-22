@@ -1,0 +1,61 @@
+/*  
+    Estoy reescribiendo el main entero de cero para 
+    pasarlo a SCSS. Es muy incómodo usar CSS 
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/*  Componentes */
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto 3rem auto;
+}
+
+/*  Empieza .grid   */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr, 0.5fr, repeat(1fr,auto), 0.5fr;
+    grid-auto-rows: repeat(20vh,auto);
+    grid-template-areas: 
+        "i i a a a a a . ."
+        "i i a a a a a . ."
+        ". . . b b b b . ."
+        ". . . b b b b . .";
+}
+
+header {
+    grid-template-areas: h;
+}
+
+.index {
+    grid-template-areas: i;
+}
+
+article {
+    grid-template-areas: a;
+}
+
+.highlight {
+    grid-template-areas: b;
+}
+/*  Termina .grid   */
+
+.highlight {
+    font-size: 1.9rem
+}
