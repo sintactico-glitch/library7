@@ -18,9 +18,23 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: Nunito, sans-serif;
   font-size: 1.25rem;
   line-height: 1.6;
+}
+
+main {
+  margin: 2em 0;
+}
+
+/*  Tipografía  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One';
 }
 
 /*  Componentes */
@@ -60,11 +74,13 @@ article {
 }
 
 /*  Termina .grid   */
+/*  Empieza header  */
 header {
   height: 100vh;
   background-color: lightcoral;
   padding: 2em;
-  /* Aligns .main__title to the bottom  */
+  /*  El flex hace que .main__title quede abajo del
+        viewport  */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,11 +101,11 @@ header h1, header h3 {
 }
 
 header h1 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 header h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .main__title {
@@ -100,13 +116,14 @@ header h3 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  /*  Hace que los flex items tenga content width */
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  /* Makes flex items have content width*/
   justify-items: flex-end;
 }
 
+/*  Termina header  */
 .highlight {
   font-size: 2rem;
 }
