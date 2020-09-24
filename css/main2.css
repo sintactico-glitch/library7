@@ -65,7 +65,6 @@ h6 {
 }                                          */
 .index {
       grid-template-areas: i;
-  max-width: 20vw;
 }
 
 article {
@@ -133,6 +132,7 @@ header h3 {
   background-color: #E0E1DD;
   padding: .8rem 0.6rem;
   margin: 0;
+  max-width: 21vw;
 }
 
 .index__title {
@@ -155,8 +155,17 @@ header h3 {
 }
 
 .index__link--back {
-  font-size: 0.8rem;
+  font-size: 1.25rem;
   margin: 3rem 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Fjalla One', sans-serif;
+  width: 100%;
+  background-color: #0A0F0D;
+  color: #ffffff;
+  padding: .75rem 1.5rem;
+  text-align: center;
 }
 
 /*  Termina index   */
