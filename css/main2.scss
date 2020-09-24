@@ -66,12 +66,17 @@ header {
     height: 100vh;
     background-color: lightcoral;
     padding: 2em;
+    /* Aligns .main__title to the bottom  */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
 
     h1, h3 {
         background-color: $white;
         display: inline;
-        padding: 1rem;
-        margin: 1rem;
+        padding: .3em .6em;
+        margin: 0.3em 0;
     }
 
     h1 {
@@ -79,14 +84,16 @@ header {
     }
 
     h3 {
-        
+        font-size: 1.25rem;
     }
 }
 
 .main__title {
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
+    align-items: flex-start; 
+    /* Makes flex items have content width*/
+    justify-items: flex-end;
 }
 
 .highlight {
