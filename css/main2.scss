@@ -3,6 +3,8 @@
     pasarlo a SCSS. Es muy incómodo usar CSS 
 */
 
+/*  Variables */
+$white: #ffffff;
 *,
 *::before,
 *::after {
@@ -37,7 +39,7 @@ body {
         "i i a a a a a . ."
         ". . . b b b b b ."
         ". . . b b b b b .";
-        
+
     /*  
         El problema que tengo con la grilla es que
         no le estoy encontrando la vuelta al tamaño
@@ -59,6 +61,33 @@ article {
     grid-template-areas: b;
 }
 /*  Termina .grid   */
+
+header {
+    height: 100vh;
+    background-color: lightcoral;
+    padding: 2em;
+
+    h1, h3 {
+        background-color: $white;
+        display: inline;
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        
+    }
+}
+
+.main__title {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+}
 
 .highlight {
     font-size: 2rem

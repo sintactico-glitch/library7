@@ -3,6 +3,7 @@
     Estoy reescribiendo el main entero de cero para 
     pasarlo a SCSS. Es muy incómodo usar CSS 
 */
+/*  Variables */
 *,
 *::before,
 *::after {
@@ -59,6 +60,36 @@ article {
 }
 
 /*  Termina .grid   */
+header {
+  height: 100vh;
+  background-color: lightcoral;
+  padding: 2em;
+}
+
+header h1, header h3 {
+  background-color: #ffffff;
+  display: inline;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+header h1 {
+  font-size: 1.75rem;
+}
+
+.main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
 .highlight {
   font-size: 2rem;
 }
