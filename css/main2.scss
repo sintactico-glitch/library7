@@ -115,7 +115,15 @@ header {
     /*  Hace que los flex items tenga content width */
     align-items: flex-start; 
     justify-items: flex-end;
+    max-width: 50vw;
 }
+
+#lean_ux {
+    background-image: url(../img/headers/leanux5.jpg);
+    max-width: 100%;
+    object-fit: cover;
+}
+
 
 /*  Termina header  */
 
