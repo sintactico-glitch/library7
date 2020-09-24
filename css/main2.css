@@ -25,6 +25,9 @@ body {
 
 main {
   margin: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*  Tipografía  */
@@ -45,24 +48,21 @@ h6 {
 }
 
 /*  Empieza .grid   */
-/*
 .grid {
-    display: grid;
-    grid-template-columns: repeat (auto, 0.5fr);
-    grid-auto-rows: repeat(100px,auto);
-    grid-template-areas: 
-        "i i a a a a a . ."
-        "i i a a a a a . ."
-        ". . . b b b b b ."
-        ". . . b b b b b .";       
-
-    /*  
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: repeat auto, 0.5fr;
+      grid-template-columns: repeat auto, 0.5fr;
+  grid-auto-rows: repeat(100px, auto);
+      grid-template-areas: ". i i . a a a a . ." ". i i . a a a a . ." ". . . . b b b b b ." ". . . . b b b b b .";
+  /*  
         El problema que tengo con la grilla es que
         no le estoy encontrando la vuelta al tamaño
         de las columnas de la .gridm sino también el 
         tamaño de .index no toma el tamaño que quiero
-        
-}                                          */
+    */
+}
+
 .index {
       grid-template-areas: i;
 }
@@ -132,7 +132,7 @@ header h3 {
   background-color: #E0E1DD;
   padding: .8rem 0.6rem;
   margin: 0;
-  max-width: 21vw;
+  max-width: 15%;
 }
 
 .index__title {
