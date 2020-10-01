@@ -42,6 +42,13 @@ main {
 
 .index {
     width: 20%;
+    /*  flex doesn´t seem to help 
+        shrink the index 
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 /*  Tipografía  */
@@ -145,6 +152,21 @@ header {
 
 article {
     margin-bottom: 2rem;
+
+    ol {
+        padding-left: 0;
+        list-style-type: none;
+        list-style-position: outside;
+
+        ul {
+            list-style-type: square;
+            list-style-position: outside;
+
+            li {
+                padding-left: 1em;
+            }
+        }
+    }
 }
 
 /*  Termina article */
