@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/main.css">
+    <title>Clase 04 - CSS: Medidas, fondos y fuentes</title>
+</head>
+<body>
+
+    <header class="container">
+        <!-- 
+            En Lean UX 2 estoy usando .main__title para esto
+            También el header no lleva container porque
+            tiene la img de fondo, no sé si voy a hacer lo 
+            mismo con el curso
+        -->
+        <div class="header__title">
+            <h1>Clase 05 - Box Modeling</h1>    
+            <h3>Curso Desarrollo Web - Coderhouse</h3>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <aside class="index">
+            <h3 class="index__title">Index</h3>
+            <ol>
+                <li><a href="#chapter1">Propiedades de la caja</a></li>
+                <li><a href="#chapter2">Propiedades en común</a></li>
+            </ol>
+            <a href="../desarrollo_web_coderhouse.html">Volver al curso</a> <br>
+            <a href="../../../web_development.html">Back to Web Development</a>
+        </aside>
+
+        <section>
+            <div class="grid">
+                <article id="chapter1">
+                    <h2>Propiedades de la caja</h2>
+                    <p><strong>Todos los elementos de HTML son cajas</strong></p>
+                    <ul>
+                        <li>Elementos de línea: se ve uno debajo del otro (<code>a</code> y <code>span</code>)</li>
+                        <li>Elementos de bloque: se ve uno debajo de otro (<code>section</code>, <code>div</code>, <code>h1 al h6</code> )</li>
+                    </ul>
+                    <p>Tip para diferenciarlos: en 99% de los casos, si estos elementos tienen que interactuar dentro de un texto (<code>strong</code>, <code>b</code>, <code>span</code>, <code>a</code>), siempre van a ser de línea. La idea es que interactuen sin que empujen el contenido hacia abajo y solamente ocupan el espacio necesario para entren sus hijos cómodamente</p>
+                </article>
+
+                <article id="chapter2">
+                    <h2>Propiedades en común</h2>
+                    <div class="article__img">
+                        <img src="../../../../img/summaries/web_development/web_development/desarrollo_web_coderhouse/clase05_box_model.jpg" alt="">
+                    </div>
+
+                    <ul>
+                        <li><strong>Content:</strong> es lo que ponemos, el espacio para el texto o la imagen</li>
+                        <li><strong>Padding:</strong> la primera capa después del contenido. Es la separación entre el borde y el contenido de la caja, es un espacio interior</li>
+                        <li><strong>Border:</strong> límite entre el elemento y el espacio externo</li>
+                        <li><strong>Margin:</strong> separación entre el borde y el afuera de la caja. Es un espacio exterior. Sirve para separar un contenido de otro. <strong>El margen separa los elementos pero no cambia el tamaño de la caja</strong></li>
+                    </ul>
+
+                    <h4>Alto y ancho de los elementos</h4>
+                    <p><code>Width</code> y <code>Height</code> controlan el ancho y altura de las cajas, respectivamente.</p>
+                    <p>Ambas propiedades no admiten valores negativos y los valores en porcentaje se calculan a partir de la altura de su elemento padre.</p>
+
+                    <p><strong>Los elementos de línea no modifican su tamaño con las propiedades <code>height</code> y <code>width</code>. Solamente los elementos de bloque hacen esto.</strong></p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
