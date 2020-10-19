@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/main.css">
+    <title>Clase 02 - Dominando el sistema de columnas</title>
+</head>
+<body>
+    <main class="container">
+        <section class="title">
+            <h1>Clase 2: Dominando el sistema de columnas</h1>
+            <h2>La biblia perdida de Bootstrap 4 - Erick Mines</h2>
+        </section>
+        
+        <aside class="index">
+            <h3 class="index__title">Index</h3>
+            <ol>
+                <li>
+                    <a href="#chapter1">Entendiendo el sistema de columnas</a>
+                </li>
+                <li>
+                    <a href="#chapter2">Regla 1: 3 elementos conforman el sistema: un contenedor, las filas y columnas</a>
+                </li>
+                <li>
+                    <a href="#chapter3">Regla 2: Hay 2 tipos de contenedores</a>
+                </li>
+                <li>
+                    <a href="#chapter4">Regla 3: Las filas tienen que ser hijas directas del contenedor</a>
+                </li>
+                <li>
+                    <a href="#chapter5">Regla 4: Las columnas tienen que ser hijas directas de una fila</a>
+                </li>
+            </ol>
+            <a href="../biblia_bootstrap4.html">Volver al curso</a> <br>
+            <a href="../../../web_development.html">Back to Web Development</a>
+        </aside>
+
+        <section class="summary">
+            <div id="chapter1">
+                <h2>Entendiendo el sistema de columnas</h2>
+                <ul>
+                    <li>El sistema de columnas es el elemento más importante de Bootstrap y permite distribuir elementos en diversas columnas</li>
+                    <li>Está basado en <strong>flexbox</strong>, lo que permite alinear los elementos de forma vertical y horizontal</li>
+                    <li>Bootstrap 4 es <strong>mobile first</strong> y el sistema de columnas está optimizado para <strong>trabajar primero con pantallas pequeñas</strong> y luego ir adaptándolas a pantallas más grandes (tablets, desktop, televisores, etc)</li>
+                </ul>
+            </div>
+
+            <div id="chapter2">
+                <h2>Regla 1: 3 elementos conforman el sistema: un contenedor, las filas y columnas</h2>
+                <div class="article__img">
+                    <img src="../../../../img/summaries/web_development/web_development/biblia_bootstrap4/clase02_estructura_sistema_columnas.jpg" alt="">
+                </div>
+                <ul>
+                    <li>Para crear el sistema de columnas se puede usar cualquier etiqueta (section, article, etc) pero se suele usar div ya que son etiquetas contenedoras que no transmiten significado semántico</li>
+                    <li>En primer lugar se coloca la clase <strong>.container</strong> al div contenedor</li>
+                    <li>Dentro del .container se crea un div con la clase <strong>.row</strong> </li>
+                    <li>Dentro de la .row creamos las columnas que vamos a utilizar con la clase <strong>.col</strong></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div id="chapter3">
+                <h2>Regla 2: Hay 2 tipos de contenedores</h2>
+                <p><strong>.container</strong>: define un contenedor que ocupa un <em>80 a 90%</em> del ancho del navegador</p>
+                <p><strong>.container-fluid</strong>: define un contenedor que ocupa <em>todo el ancho</em> de la ventana del navegador</p>
+                <p>En pantallas pequeñas tanto .container como .container-fluid ocupan el 100% del ancho del navegador</p>
+            </div>
+
+            <div id="chapter4">
+                <h2>Regla 3: Las filas tienen que ser hijas directas del contenedor</h2>
+                <ul>
+                    <li>Podemos tener otros elementos dentro del contenedor, como un titular</li>
+                    <li>Si las filas no son <strong>hijas directas del contenedor</strong>, el sistema de grillas no funcionará</li>
+                    <li>Podemos tener más de una fila por contenedor</li>
+                </ul>
+            </div>
+
+            <div id="chapter5">
+                <h2>Regla 4: Las columnas tienen que ser hijas directas de una fila</h2>
+                <ul>
+                    <li>Podemos incluir un elemento (como un titular) como hijo directo de un contenedor. Esto no funciona con las filas</li>
+                    <li><strong>Dentro de una fila no puede ir ningún tipo de contenido</strong>. El contenido siempre debe ir dentro de las columnas</li>
+                </ul>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>    
