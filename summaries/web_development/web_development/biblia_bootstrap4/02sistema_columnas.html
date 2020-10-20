@@ -18,34 +18,43 @@
             <h3 class="index__title">Index</h3>
             <ol>
                 <li>
-                    <a href="#chapter1">Entendiendo el sistema de columnas</a>
+                    <a href="#chapter1">3 elementos conforman el sistema: un contenedor, las filas y columnas</a>
                 </li>
                 <li>
-                    <a href="#chapter2">Regla 1: 3 elementos conforman el sistema: un contenedor, las filas y columnas</a>
+                    <a href="#chapter2">Hay 2 tipos de contenedores</a>
                 </li>
                 <li>
-                    <a href="#chapter3">Regla 2: Hay 2 tipos de contenedores</a>
+                    <a href="#chapter3">Las filas tienen que ser hijas directas del contenedor</a>
                 </li>
                 <li>
-                    <a href="#chapter4">Regla 3: Las filas tienen que ser hijas directas del contenedor</a>
+                    <a href="#chapter4">Las columnas tienen que ser hijas directas de una fila</a>
                 </li>
                 <li>
-                    <a href="#chapter5">Regla 4: Las columnas tienen que ser hijas directas de una fila</a>
+                    <a href="#chapter5">Una fila puede tener 12 columnas como máximo</a>
                 </li>
                 <li>
-                    <a href="#chapter6">Regla 5: Una fila puede tener 12 columnas como máximo</a>
+                    <a href="#chapter6">Si superamos las 12 columnas por fila, las siguientes saltarán abajo formando una nueva fila</a>
                 </li>
                 <li>
-                    <a href="#chapter7">Regla 6: Si superamos las 12 columnas por fila, las siguientes saltarán abajo formando una nueva fila</a>
+                    <a href="#chapter7">El contenido tiene que ir dentro de las columnas</a>
                 </li>
                 <li>
-                    <a href="#chapter8">Regla 7: El contenido tiene que ir dentro de las columnas</a>
+                    <a href="#chapter8">La clase .col nos permite crear columnas de proporciones idénticas</a>
                 </li>
                 <li>
-                    <a href="#chapter9">Regla 8: La clase .col nos permite crear columnas de proporciones idénticas</a>
+                    <a href="#chapter9">Podemos modificar la medida de una columna dependiendo del tamaño de pantalla</a>
                 </li>
                 <li>
-                    <a href="#chapter10">Regla 9: Podemos modificar la medida de una columna dependiendo del tamaño de pantalla</a>
+                    <a href="#chapter10">Los contextos se heredan de menor a mayor</a>
+                </li>
+                <li>
+                    <a href="#chapter11">Podemos crear columnas vacías</a>
+                </li>
+                <li>
+                    <a href="#chapter12">Podemos crear columnas anidadas</a>
+                </li>
+                <li>
+                    <a href="#chapter13">Podemos reordenar las columnas</a>
                 </li>
             </ol>
             <a href="../biblia_bootstrap4.html">Volver al curso</a> <br>
@@ -53,7 +62,7 @@
         </aside>
 
         <section class="summary">
-            <div id="chapter1">
+            <div>
                 <h2>Entendiendo el sistema de columnas</h2>
                 <ul>
                     <li>El sistema de columnas es el elemento más importante de Bootstrap y permite distribuir elementos en diversas columnas</li>
@@ -62,7 +71,7 @@
                 </ul>
             </div>
 
-            <div id="chapter2">
+            <div id="chapter1">
                 <h2>Regla 1: 3 elementos conforman el sistema: un contenedor, las filas y columnas</h2>
                 <div class="article__img">
                     <img src="../../../../img/summaries/web_development/web_development/biblia_bootstrap4/clase02_estructura_sistema_columnas.jpg" alt="">
@@ -75,7 +84,7 @@
                 </ul>
             </div>
 
-            <div id="chapter3">
+            <div id="chapter2">
                 <h2>Regla 2: Hay 2 tipos de contenedores</h2>
                 <ul>
                     <li><strong>.container</strong>: define un contenedor que ocupa un <em>80 a 90%</em> del ancho del navegador</li>
@@ -84,7 +93,7 @@
                 </ul>
             </div>
 
-            <div id="chapter4">
+            <div id="chapter3">
                 <h2>Regla 3: Las filas tienen que ser hijas directas del contenedor</h2>
                 <ul>
                     <li>Podemos tener otros elementos dentro del contenedor, como un titular</li>
@@ -93,7 +102,7 @@
                 </ul>
             </div>
 
-            <div id="chapter5">
+            <div id="chapter4">
                 <h2>Regla 4: Las columnas tienen que ser hijas directas de una fila</h2>
                 <ul>
                     <li>Podemos incluir un elemento (como un titular) como hijo directo de un contenedor. Esto no funciona con las filas</li>
@@ -101,21 +110,21 @@
                 </ul>
             </div>
 
-            <div id="chapter6">
+            <div id="chapter5">
                 <h2>Regla 5: Una fila puede tener 12 columnas como máximo</h2>
                 <p>Al asignar la clase .col, asignamos un número que corresponde a la cantidad de columnas que va a ocupar (.col-12 para 12 columnas, .col-6 para 6 columnas, etc)</p>
             </div>
 
-            <div id="chapter7">
+            <div id="chapter6">
                 <h2>Regla 6: Si superamos las 12 columnas por fila, las siguientes saltarán abajo formando una nueva fila</h2>
             </div>
 
-            <div id="chapter8">
+            <div id="chapter7">
                 <h2>Regla 7: El contenido tiene que ir dentro de las columnas</h2>
                 <p>No podemos crear contenido a la altura de las columnas. Dentro de .row Bootstrap está esperando que creemos .col. Si colocamos cualquier otro elemento (h2, p, etc) se va a romper la grilla</p>
             </div>
 
-            <div id="chapter9">
+            <div id="chapter8">
                 <h2>Regla 8: La clase .col nos permite crear columnas de proporciones idénticas</h2>
                 <ul>
                     <li>La clase .col distribuye de forma idéntica las columnas en una fila</li>
@@ -123,7 +132,7 @@
                 </ul>
             </div>
 
-            <div id="chapter10">
+            <div id="chapter9">
                 <h2>Regla 9: Podemos modificar la medida de una columna dependiendo del tamaño de pantalla</h2>
                 <div class="article__img">
                     <img src="../../../../img/summaries/web_development/web_development/biblia_bootstrap4/clase02_tamanos_pantalla.jpg" alt="">
@@ -131,14 +140,36 @@
                 <p>Por lo general, se suelen definir los contextos .col y .col-md</p>
             </div>
 
-            <div id="chapter11">
+            <div id="chapter10">
                 <h2>Regla 10: Los contextos se heredan de menor a mayor</h2>
                 <p>Una vez que establecemos las columnas en un contexto en pantallas pequeñas, se va a heredar para los contextos de mayor tamaño. </p>
             </div>
 
-            <div id="chapter12">
+            <div id="chapter11">
                 <h2>Regla 11: Podemos crear columnas vacías</h2>
-                
+                <p>Si queremos tener columnas vacías entre columnas de contenido no es recomendable crear un div vacío. Esto crea código HTML innecesario.</p>
+                <p>Con la clase .offset podemos crear separaciones entre columnas. Esta clase mueve hacia la derecha la cantidad de columnas que indiquemos numéricamente (ej, .offset-2 mueve 2 columnas).</p>
+                <p>También podemos asignar .offset a contextos determinados, ej .offset-sm-2. Si queremos que en algún contexto no haya separación podemos usar .offset-lg-0, por ejemplo. </p>
+            </div>
+
+            <div id="chapter12">
+                <h2>Regla 12: Podemos crear columnas anidadas</h2>
+                <p>Para crear columnas dentro de una columna no es necesario colocar un contenedor, basta crear un div con .row </p>
+                <div class="article__img">
+                    <img src="../../../../img/summaries/web_development/web_development/biblia_bootstrap4/clase02_columnas_anidadas.jpg" alt="">
+                </div> 
+            </div>
+
+            <div id="chapter13">
+                <h2>Regla 13: Podemos reordenar las columnas</h2>
+                <p>Esto es posible ya que el sistema de columnas de Bootstrap se basa en flexbox.</p>
+                <p>El orden visual de las columnas cambia pero el código HTML se mantiene intacto.</p>
+                <ul>
+                    <li>Se usa la clase .order- para controlar el orden visual del contenido</li>
+                    <li>Los valores que toma van del 0 al 12 (.order-1, .order-3, etc). El orden por defecto de las columnas es de 0. </li>
+                    <li>Bootstrap va a ordenar las columnas de menor a mayor. Si tenemos 4 columnas y una sola tiene .order-1, esta columna se mostrará al final de la fila ya que todas las demás tienen valor 0</li>
+                    <li>Se puede utilizar para establecer orden visual de columnas en distintos contextos (.order-md-3, .order-lg-5, etc)</li>
+                </ul>
             </div>
 
         </section>
