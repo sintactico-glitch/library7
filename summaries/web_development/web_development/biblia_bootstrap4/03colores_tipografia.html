@@ -18,15 +18,103 @@
             <h3 class="index__title">Index</h3>
             <ol>
                 <li>
-                    <a href="#chapter1">3 elementos conforman el sistema: un contenedor, las filas y columnas</a>
+                    <a href="#chapter1">Entendiendo las medidas REM</a>
+                </li>
+                <li>
+                    <a href="#chapter2">Clases para encabezados</a>
+                </li>
+                <li>
+                    <a href="#chapter3">Clases para títulos destacados</a>
+                </li>
+                <li>
+                    <a href="#chapter4">Clases para alineaciones de texto</a>
+                </li>
+                <li>
+                    <a href="#chapter5">Clases para transformaciones de texto</a>
+                </li>
+                <li>
+                    <a href="#chapter6">Trabajando con colores</a>
                 </li>
             </ol>
+            <a href="../biblia_bootstrap4.html">Volver al curso</a> <br>
+            <a href="../../../web_development.html">Back to Web Development</a>
         <aside>
         
         <section class="summary">
+            
+
             <div id="chapter1">
-                <h2></h2>
+                <h2>Entendiendo las medidas REM</h2>
+                <p>Podemos aplicar estilos de forma responsive con los 5 contextos que utiliza Bootstrap.</p>
+                <p><strong>REM</strong>: Medida relativa basada en el tamaño de fuente que tenga la etiqueta HTML</p>
+                <p>1rem es el tamaño de texto que se define en la etiqueta HTML. Por defecto suele ser 16px</p>
+                <p>La gran ventaja de usar REM es que permite escalar el diseño de forma responsive. Empezamos a trabajar pensanado en las versiones mobile, por lo que podemos definir un font-size de 14px y luego ir aumentando el tamaño para contextos mayores. Esto permite tener tipografía escalable dependiendo del tamaño del dispositivo. Podemos usar REM para otros elementos (padding, margin, etc) y también serán responsive</p>
+                <p><em>Se recomienda que el tamaño de fuente para tamaños mobile sea más pequeño</em></p>
             </div>
+
+            <div id="chapter2">
+                <h2>Clases para encabezados</h2>
+                <p>Con las clases de encabezado de Bootstrap podemos hacer que párrafos tomen el estilo de titulares </p>
+                <p>Estas etiquetas toman el valor de .h1 a .h6</p>
+            </div>
+
+            <div id="chapter3">
+                <h2>Clases para títulos destacados</h2>
+                <p>En algunas secciones puede ser que necesitemos tamaños mayores para títulos de secciones destacadas. Para esto utilizamos la clase .display</p>
+                <p>Los valores son .display-1 al .display-4</p>
+            </div>
+
+            <div id="chapter4">
+                <h2>Clases para alineaciones de texto</h2>
+                <ul>
+                    <li>.text-left</li>
+                    <li>.text-center</li>
+                    <li>.text-right</li>
+                    <li>.text-justify</li>
+                </ul>
+                <p>También nos permite alinear el contenido en base al contexto (por ejemplo, .text-sm-left, .text-lg-center)</p>
+            </div>
+
+            <div id="chapter5">
+                <h2>Clases para transformaciones de texto</h2>
+                <ul>
+                    <li>.text-uppercase</li>
+                    <li>.text-lowercase</li>
+                    <li>.text-capitalize</li>
+                    <li>.font-weight-bold</li>
+                    <li>.font-italic</li>
+                    <li>.small (80% del tamaño original)</li>
+                </ul>
+            </div>
+
+            <div id="chapter6">
+                <h2>Trabajando con colores</h2>
+                <p>Para empezar a trabajar en el diseño del sitio usamos un color principal y un color secundario. Podemos tomar estos colores del logo del cliente</p>
+                <p>Boostrap maneja 6 colores principales:</p>
+                <ul>
+                    <li>Primary (.text-primary)</li>
+                    <li>Secondary (.text-secondary)</li>
+                    <li>Success (.text-succes)</li>
+                    <li>Danger (.text-danger)</li>
+                    <li>Warning (.text-warning)</li>
+                    <li>Info (.text-info)</li>
+                </ul>
+                <p>También tiene las clases:</p>
+                <ul>
+                    <li>.text-light y .text-white (para usar con un background oscuro)</li>
+                    <li>.text-dark y .text-black (para usar con un background claro)</li>
+                </ul>
+                <p>Las clases que podemos usar para cambiar el fondo de los elementos son:</p>
+                <ul>
+                    <li>.bg-primary</li>
+                    <li>.bg-secondary</li>
+                    <li>.bg-warning</li>
+                    <li>Toman todos los valores vistos para los colores</li>
+                </ul>
+                <p>Cuando empezamos a trabajar en nuestro sitio vamos a tener que definir los colores primarios y secundarios en base a nuestro cliente. Por lo que tenemos que definir estos colores con los valores personalizados.</p>
+                <p>Para hacerlo vamos a rescribir las clases de Bootstrap en nuestro css. Usamos el mismo nombre de clase y lo guardamos en el css personalizado.</p>
+            </div>
+
         </section>
 
     </main>
