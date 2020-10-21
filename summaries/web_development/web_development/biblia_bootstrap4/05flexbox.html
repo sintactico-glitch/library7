@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/main.css">
+    <title>Clase 05 - Usando Flexbox</title>
+</head>
+<body>
+    <main class="container">
+        <section class="title">
+            <h1>Clase 5: Usando Flexbox</h1>
+            <h2>La biblia perdida de Bootstrap 4 - Erick Mines</h2>
+        </section>
+
+        <aside class="index">
+            <h3 class="index__title">Index</h3>
+            <ol>
+                <li><a href="#chapter1">Trabajando con d-flex</a></li>
+                <li><a href="#chapter2">Cambiando la orientación con flexbox</a></li>
+                <li><a href="#chapter3">Alineación en el eje principal con flexbox</a></li>
+                <li><a href="#chapter4">Alineación en el eje secundario con flexbox</a></li>
+            </ol>
+            <a href="../biblia_bootstrap4.html">Volver al curso</a> <br>
+            <a href="../../../web_development.html">Back to Web Development</a>
+        </aside>
+
+        <div id="chapter1">
+            <h2>Trabajando con d-flex</h2>
+            <p>Todo el sistema de columnas de Bootstrap está basado en flexbox. Las clases .row tienen display: flex, lo que permite que las .col se coloquen una al lado de la otra</p>
+            <p>Clases para crear un flex container:</p>
+            <ul>
+                <li>.d-flex</li>
+                <li>.d-sm-flex</li>
+                <li>.d-md-flex</li>
+                <li>.d-lg-flex</li>
+                <li>.d-xl-flex</li>
+            </ul>
+            <p>Si queremos sacar el entorno flexible asignamos la clase .d-block (con sus variables respectivas dependiendo de los contextos)</p>
+        </div>
+
+        <div id="chapter2">
+            <h2>Cambiando la orientación con flexbox</h2>
+            <p>Para cambiar la orientación le agregamos las siguientes clases al flex container:</p>
+            <ul>
+                <li>.flex-row</li>
+                <li>.flex-column</li>
+                <li>.flex-row-reverse</li>
+                <li>.flex-column-reverse</li>
+                <li>.flex-md-row, etc</li>
+                <li>.flex-md-column, etc</li>
+            </ul>
+        </div>
+
+        <div id="chapter3">
+            <h2>Alineación en el eje principal con flexbox</h2>
+            <p>Las siguientes clases se aplican al flex container:</p>
+            <ul>
+                <li>.justify-content-start</li>
+                <li>.justify-content-center</li>
+                <li>.justify-content-end</li>
+                <li>.justify-content-between</li>
+                <li>.justify-content-around</li>
+                <li>.justify-content-evenly</li>
+            </ul>
+            <p>Estas clases también se pueden utilizar de forma responsive, dependiendo de los distintos contextos que maneja Bootstrap. La estructura que se sigue es: </p>
+            <p>.justify-content-contexto-alineación</p>
+            <p>Por ejemplo: .justify-content-md-center</p>
+        </div>
+
+        <div id="chapter4">
+            <h2>Alineación en el eje secundario con flexbox</h2>
+            
+        </div>
+
+
+    </main>
+
+</body>
+</html>
