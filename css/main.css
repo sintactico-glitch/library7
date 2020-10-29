@@ -84,8 +84,9 @@ h6 {
 
 /*  Párrafos destacados */
 .highlight {
-  margin: 1.5em;
-  font-size: 1.3125rem;
+  font-size: 1.5rem;
+  max-width: 80%;
+  margin: 1.5em auto;
 }
 
 /*ul,
@@ -95,6 +96,12 @@ ol {
 }*/
 .summary {
   margin-bottom: .3em;
+  max-width: 80%;
+  margin-left: auto;
+}
+
+.summary__list-item {
+  margin-bottom: .6em;
 }
 
 /*  
