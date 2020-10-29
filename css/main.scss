@@ -28,10 +28,14 @@ img {
     width: 100%;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /*  Components */
 .container {
-    width: 70%;
-    max-width: 1000px;
+    width: 80%;
+    max-width: 1100px;
     margin: 0 auto 3em auto;
 }
 
@@ -109,12 +113,17 @@ ol {
 // I'm trying to increase the distance between li elements
 .summary {
     margin-bottom: .3em;
-    max-width: 80%;
+    max-width: 70%;
     margin-left: auto;
 
     &__list-item {
         margin-bottom: .6em;
     }
+}
+
+.index {
+    max-width: 27%;
+    border: 1px solid black;
 }
 /*  
     This fixes the padding on the list, however when the li has a p or title, the bullet occupies the entire first line
