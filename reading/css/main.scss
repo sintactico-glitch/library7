@@ -1,0 +1,20 @@
+@use '_colors.scss';
+@import '_colors.scss';
+
+body {
+    height: 100vh;
+    background-color: $dark_pink;
+}
+
+
+/*  Overide Bootstrap   */
+
+.header {
+    background-color: $black;
+}
+.container-fluid {
+
+    .col {
+        padding: 0;
+    }
+}

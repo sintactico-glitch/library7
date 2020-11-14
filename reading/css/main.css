@@ -1,0 +1,15 @@
+@use '_colors.scss';
+body {
+  height: 100vh;
+  background-color: #E01541;
+}
+
+/*  Overide Bootstrap   */
+.header {
+  background-color: #0A0F0D;
+}
+
+.container-fluid .col {
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
