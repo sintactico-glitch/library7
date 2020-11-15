@@ -114,6 +114,15 @@ ol {
   margin-bottom: .6em;
 }
 
+.summary__title--main {
+  font-size: 2.5rem;
+}
+
+.summary__title--article {
+  text-transform: uppercase;
+  font-size: 1.75rem;
+}
+
 .index {
   max-width: 25%;
   border: 1px solid black;
@@ -129,7 +138,9 @@ ol {
 }
 
 .index__title {
-  margin-top: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .index__list {
