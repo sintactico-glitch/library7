@@ -126,6 +126,7 @@ ol {
 
     &__title--main {
         font-size: 2.5rem;
+        margin-top: 0;
     }
 
     &__title--article {
@@ -155,7 +156,7 @@ ol {
         line-height: 1.5;
 
         li {
-            margin-bottom: 0.5em;
+            margin-bottom: 0.6em;
         }
     }
 }
